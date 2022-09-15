@@ -1,2 +1,2 @@
 #!/bin/bash
-dir -A /$pwd/boot
+dir -al /$pwd/boot
