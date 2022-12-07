@@ -1,1 +1,1 @@
-Shell, init files, variables and expansions
+A project about Shell, init files, variables and expansions
