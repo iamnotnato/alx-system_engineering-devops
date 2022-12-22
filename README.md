@@ -2,7 +2,7 @@
 A shell project.
 
 <h4>Summary: </h4>
-These are projects that helped me understand a bit of low-level programming.
+These are projects that helped me understand bash scripting.
 
 <h4>Languages Used</h4>
 <table>
@@ -13,4 +13,4 @@ These are projects that helped me understand a bit of low-level programming.
 
 <h4>Projects Guide: </h4>
 
-* [0x00. Shell Basics](./0x00-shell_basics)
+* [0x00 - Shell Basics](./0x00-shell_basics)
