@@ -22,17 +22,17 @@ These are projects that helped me understand bash scripting.
 * **0. Where am I?**
   * File : [0-current_working_directory](./0-current_working_directory)
   * Required : A script that prints the absolute path name of the current working directory.
-  * <br> 
+<br> 
  
 * **1. What’s in there?**
   * File : [1-listit](./1-listit)
   * Required : Display the contents list of your current directory.
- <br>  
+<br>  
  
 * **2. There is no place like home**
   * File : [2-bring_me_home](./2-bring_me_home)
   * Required : A script that changes the working directory to the user’s home directory.
-   <br>   
+<br>   
    
 * **3. The long format**
   * File : [3-listfiles](./3-listfiles)
