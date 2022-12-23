@@ -21,14 +21,12 @@ These are projects that helped me understand bash scripting.
 
 * **0. Where am I?**
   * File : [0-current_working_directory](./0-current_working_directory)
-  * Required : A script that prints the absolute path name of the current working directory.
-  
+  * Required : A script that prints the absolute path name of the current working directory.  
  <br>
  
 * **1. What’s in there?**
   * File : [1-listit](./1-listit)
   * Required : Display the contents list of your current directory.
-
  <br>
   
 * **2. There is no place like home**
