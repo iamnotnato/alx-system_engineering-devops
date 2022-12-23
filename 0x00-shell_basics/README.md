@@ -114,7 +114,7 @@ These are projects that helped me understand bash scripting.
   * Required : Write a command that lists all the files and directories of the current directory, separated by commas (,).
   <br>  
   
-  * **19. File type: School**
+* **19. File type: School**
   * File : [school.mgc](./school.mgc)
   * Required : Create a magic file school.mgc that can be used with the command file to detect School data files.
  <br>
