@@ -89,33 +89,67 @@ These are projects that helped me understand bash scripting.
   * Required : A script that takes a list of words as input and prints only words that appear exactly once.
 <br> 
  
-* **14. Copy HTML files**
-  * File : [14-copy_html](./14-copy_html)
-  * Required : Create a script that copies all the HTML files from the current working directory to the parent of the working directory,
-  but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+* **14. It must be in that file**
+  * File : [14-findthatword](./14-findthatword)
+  * Required : Display lines containing the pattern “root” from the file /etc/passwd
 <br>   
    
-* **15. Let’s move**
-  * File : [100-lets_move](./100-lets_move)
-  * Required : Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+* **15. Count that word**
+  * File : [15-countthatword](./15-countthatword)
+  * Required : Display the number of lines that contain the pattern “bin” in the file /etc/passwd
 <br> 
  
-* **16. Clean Emacs**
-  * File : [101-clean_emacs](./101-clean_emacs)
-  * Required : Create a script that deletes all files in the current working directory that end with the character ~.
+* **16. What's next?**
+  * File : [16-whatsnext](./16-whatsnext)
+  * Required : Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 <br>  
   
-* **17. Tree**
-  * File : [102-tree](./102-tree)
-  * Required : Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+* **17. I hate bins**
+  * File : [17-hidethisword](./17-hidethisword)
+  * Required : Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 <br> 
  
-* **18. Life is a series of commas, not periods**
-  * File : [103-commas](./103-commas)
-  * Required : Write a command that lists all the files and directories of the current directory, separated by commas (,).
+* **18. Letters only please**
+  * File : [18-letteronly](./18-letteronly)
+  * Required : Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 <br>  
   
-* **19. File type: School**
-  * File : [school.mgc](./school.mgc)
-  * Required : Create a magic file school.mgc that can be used with the command file to detect School data files.
+* **19. A to Z**
+  * File : [19-AZ](./19-AZ)
+  * Required : Replace all characters A and c from input to Z and e respectively.
+<br>
+
+* **20. Without C, you would live in hiago**
+  * File : [20-hiago](./20-hiago)
+  * Required : A script that removes all letters c and C from input.
+<br>  
+  
+* **21. esreveR**
+  * File : [21-reverse](./21-reverse)
+  * Required : A script that reverse its input.
+<br>
+
+* **22. DJ Cut Killer**
+  * File : [22-users_and_homes](./22-users_and_homes)
+  * Required : A script that displays all users and their home directories, sorted by users.
+<br>  
+  
+* **23. Empty casks make the most noise**
+  * File : [100-empty_casks](./100-empty_casks)
+  * Required : A command that finds all empty files and directories in the current directory and all sub-directories.
+<br>
+
+* **24. A gif is worth ten thousand words**
+  * File : [101-gifs](./101-gifs)
+  * Required : A script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+<br>  
+  
+* **25. Acrostic**
+  * File : [102-acrostic](./102-acrostic)
+  * Required : A script that decodes acrostics that use the first letter of each line.
+<br>
+
+* **26. The biggest fan**
+  * File : [103-the_biggest_fan](./103-the_biggest_fan)
+  * Required : A script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 <br>
