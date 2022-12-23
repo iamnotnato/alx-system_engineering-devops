@@ -20,86 +20,104 @@ These are projects that helped me understand bash scripting.
   <h4>List of Tasks:</h4>
 
 * **0. Where am I?**
-  * File : [0-current_working_directory](./0-current_working_directory):
+  * File : [0-current_working_directory](./0-current_working_directory)
   <br>
   Required : A script that prints the absolute path name of the current working directory.
 
 * **1. What’s in there?**
-  *  File : [1-listit](./1-listit): 
+  *  File : [1-listit](./1-listit)
    <br>
   Required : Display the contents list of your current directory.
   
 * **2. There is no place like home**
-  *  File : [2-bring_me_home](./2-bring_me_home): 
+  *  File : [2-bring_me_home](./2-bring_me_home)
    <br>
   Required : A script that changes the working directory to the user’s home directory.
   
 * **3. The long format**
-  * File : [3-listfiles](./3-listfiles):
+  * File : [3-listfiles](./3-listfiles)
   <br>
   Required : Display current directory contents in a long format
 
-* **4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy**
-  *  File : [4-rev_array.c](./4-rev_array.c): 
+* **4. Hidden files**
+  *  File : [4-listmorefiles](./4-listmorefiles)
    <br>
-  Required : A function that reverses the content of an array of integers.
-  <br>
-  Expected Results : Where n is the number of elements of the array.
+  Required :Display current directory contents, including hidden files (starting with .). Use the long format.
   
-* **5. Always look up**
-  * File : [5-string_toupper.c](./5-string_toupper.c):
+* **5. I love numbers**
+  * File : [5-listfilesdigitonly](./5-listfilesdigitonly)
   <br>
-  Required : A function that changes all lowercase letters of a string to uppercase.
-  <br>
-  Expected Results : A function that changes all lowercase letters of a string to uppercase.
+  Required : Display current directory contents.
 
-* **6. Expect the best. Prepare for the worst. Capitalize on what comes**
-  *  File : [6-cap_string.c](./6-cap_string.c): 
+* **6. Welcome**
+  *  File : [6-firstdirectory](./6-firstdirectory)
    <br>
-  Required : Write a function that capitalizes all words of a string.
-  <br>
-  Expected Results : Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+  Required : A script that creates a directory named my_first_directory in the /tmp/ directory.
   
-* **7. Mozart composed his music not for the elite, but for everybody**
-  * File : [7-leet.c](./7-leet.c):
+* **7. Betty in my first directory**
+  * File : [7-movethatfile](./7-movethatfile)
   <br>
-  Required : A function that encodes a string into 1337.
-  <br>
-  Expected Results : You are not allowed to use any ternary operation.
+  Required : Move the file betty from /tmp/ to /tmp/my_first_directory.
 
-* **8. rot13**
-  *  File : [100-rot13.c](./100-rot13.c): 
+* **8. Bye bye Betty**
+  *  File : [8-firstdelete](./8-firstdelete)
    <br>
-  Required : A function that encodes a string using rot13.
+  Required : Delete the file betty.
+   
+* **9. Bye bye My first directory**
+  * File : [9-firstdirdeletion](./9-firstdirdeletion)
   <br>
-  Expected Results : You can only use if statement once in your code.
+  Required : Delete the directory my_first_directory that is in the /tmp directory.
+
+* **10. Back to the future**
+  *  File : [10-back](./10-back)
+   <br>
+  Required : A script that changes the working directory to the previous one.
   
-* **9. Numbers have life; they're not just symbols on paper**
-  * File : [101-print_number.c](./101-print_number.c):
+* **11. Lists**
+  * File : [11-lists](./11-lists)
   <br>
-  Required : A function that prints an integer.
-  <br>
-  Expected Results : You can only use _putchar function to print.
+  Required : Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
-* **10. A dream doesn't become reality through magic; it takes sweat, determination and hard work**
-  *  File : [102-magic.c](./102-magic.c): 
+* **12. File type**
+  *  File : [12-file_type](./12-file_type)
    <br>
-  Required : You are not allowed to code anything else than the line of expected line of code at the expected line.
+  Required : Write a script that prints the type of the file named iamafile.
   <br>
-  Expected Results : Add one line to the code provided, so that the program prints a[2] = 98, followed by a new line.
   
-* **11. It is the addition of strangeness to beauty that constitutes the romantic character in art**
-  * File : [103-infinite_add.c](./103-infinite_add.c):
+* **13. We are symbols, and inhabit symbols**
+  * File : [13-symbolic_link](./13-symbolic_link)
   <br>
-  Required : The function returns a pointer to the result
-  <br>
-  Expected Results : RIf the result can not be stored in r the function must return 0.
+  Required : Create a symbolic link to /bin/ls, named __ls__.
 
-* **12. Noise is a buffer, more effective than cubicles or booth walls**
-  *  File : [104-print_buffer.c](./104-print_buffer.c): 
+* **14. Copy HTML files**
+  *  File : [14-copy_html](./14-copy_html)
    <br>
-  Required : The function must print the content of size bytes of the buffer pointed by b
+  Required : Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+  
+* **15. Let’s move**
+  * File : [100-lets_move](./100-lets_move)
   <br>
-  Expected Results : The output should look like the example they provided and formatted exactly the same way.
+  Required : Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
+* **16. Clean Emacs**
+  *  File : [101-clean_emacs](./101-clean_emacs)
+   <br>
+  Required : Create a script that deletes all files in the current working directory that end with the character ~.
+  <br>
+  
+* **17. Tree**
+  * File : [102-tree](./102-tree)
+  <br>
+  Required : Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
+* **18. Life is a series of commas, not periods**
+  *  File : [103-commas](./103-commas)
+   <br>
+  Required : Write a command that lists all the files and directories of the current directory, separated by commas (,).
+  <br>
+  
+  * **19. File type: School**
+  * File : [school.mgc](./school.mgc)
+  <br>
+  Required : Create a magic file school.mgc that can be used with the command file to detect School data files.
