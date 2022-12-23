@@ -1,4 +1,4 @@
-<h4>Project : 0x00-shell_basics</h4>
+<h4>Project : 0x02-shell_redirections</h4>
 <h4>Summary: </h4>
 These are projects that helped me understand bash scripting.
 
@@ -19,75 +19,74 @@ These are projects that helped me understand bash scripting.
   
   <h4>List of Tasks:</h4>
 
-* **0. Where am I?**
-  * File : [0-current_working_directory](./0-current_working_directory)
-  * Required : A script that prints the absolute path name of the current working directory.
+* **0. Hello World**
+  * File : [0-hello_world](./0-hello_world)
+  * Required : A script that prints “Hello, World”, followed by a new line to the standard output.
 <br> 
  
-* **1. What’s in there?**
-  * File : [1-listit](./1-listit)
-  * Required : Display the contents list of your current directory.
+* **1. Confused smiley**
+  * File : [1-confused_smiley](./1-confused_smiley)
+  * Required : A script that displays a confused smiley "(Ôo)'.
 <br>  
  
-* **2. There is no place like home**
-  * File : [2-bring_me_home](./2-bring_me_home)
-  * Required : A script that changes the working directory to the user’s home directory.
+* **2. Let's display a file**
+  * File : [2-hellofile](./2-hellofile)
+  * Required : Display the content of the /etc/passwd file.
 <br>   
    
-* **3. The long format**
-  * File : [3-listfiles](./3-listfiles)
-  * Required : Display current directory contents in a long format
+* **3. What about 2?**
+  * File : [3-twofiles](./3-twofiles)
+  * Required : Display the content of /etc/passwd and /etc/hosts.
 <br> 
  
-* **4. Hidden files**
-  * File : [4-listmorefiles](./4-listmorefiles)
-  * Required :Display current directory contents, including hidden files (starting with .). Use the long format.
+* **4. Last lines of a file**
+  * File : [4-lastlines](./4-lastlines)
+  * Required : Display the last 10 lines of /etc/passwd
 <br>   
    
-* **5. I love numbers**
-  * File : [5-listfilesdigitonly](./5-listfilesdigitonly)
-  * Required : Display current directory contents.
+* **5. I'd prefer the first ones actually**
+  * File : [5-firstlines](./5-firstlines)
+  * Required : Display the first 10 lines of /etc/passwd
 <br> 
  
-* **6. Welcome**
-  * File : [6-firstdirectory](./6-firstdirectory)
-  * Required : A script that creates a directory named my_first_directory in the /tmp/ directory.
+* **6. Line #2**
+  * File : [6-third_line](./6-third_line)
+  * Required : A script that displays the third line of the file iacta.
 <br>   
    
-* **7. Betty in my first directory**
-  * File : [7-movethatfile](./7-movethatfile)
-  * Required : Move the file betty from /tmp/ to /tmp/my_first_directory.
+* **7. It is a good file that cuts iron without making a noise**
+  * File : [7-file](./7-file)
+  * Required : A shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 <br> 
  
-* **8. Bye bye Betty**
-  * File : [8-firstdelete](./8-firstdelete)
-  * Required : Delete the file betty.
+* **8. Save current state of directory**
+  * File : [8-cwd_state](./8-cwd_state)
+  * Required : A script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
 <br>    
     
-* **9. Bye bye My first directory**
-  * File : [9-firstdirdeletion](./9-firstdirdeletion)
-  * Required : Delete the directory my_first_directory that is in the /tmp directory.
+* **9. Duplicate last line**
+  * File : [9-duplicate_last_line](./9-duplicate_last_line)
+  * Required : A script that duplicates the last line of the file iacta
 <br> 
  
-* **10. Back to the future**
-  * File : [10-back](./10-back)
-  * Required : A script that changes the working directory to the previous one.
+* **10. No more javascript**
+  * File : [10-no_more_js](./10-no_more_js)
+  * Required : A script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 <br> 
  
-* **11. Lists**
-  * File : [11-lists](./11-lists)
-  * Required : Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden)
-  in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+* **11. Don't just count your directories, make your directories count**
+  * File : [11-directories](./11-directories)
+  * Required : A script that counts the number of directories and sub-directories in the current directory.
 <br> 
  
-* **12. File type**
-  * File : [12-file_type](./12-file_type)
-  * Required : Write a script that prints the type of the file named iamafile.
+* **12. What’s new**
+  * File : [12-newest_files](./12-newest_files)
+  * Required : A script that displays the 10 newest files in the current directory.
 <br>  
   
-* **13. We are symbols, and inhabit symbols**
-  * File : [13-symbolic_link](./13-symbolic_link)
-  * Required : Create a symbolic link to /bin/ls, named __ls__.
+* **13. Being unique is better than being perfect**
+  * File : [13-unique](./13-unique)
+  * Required : A script that takes a list of words as input and prints only words that appear exactly once.
 <br> 
  
 * **14. Copy HTML files**
