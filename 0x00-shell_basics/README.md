@@ -17,8 +17,11 @@ These are projects that helped me understand bash scripting.
   </tr>
 </table>
 
-<h4>Files: </h4>
+<h4>List of Tasks:</h4>
 
-* [0-current_working_directory - Where am I?](./0-current_working_directory)
-Required :  A script that prints the absolute path name of the current working directory.
+* **0-current_working_directory**
+  * File : [0-current_working_directory](./0-current_working_directory):
+  <br>
+  Required : A script that prints the absolute path name of the current working directory.
+
 
