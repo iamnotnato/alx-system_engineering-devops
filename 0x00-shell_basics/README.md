@@ -83,7 +83,7 @@ These are projects that helped me understand bash scripting.
 * **12. File type**
   * File : [12-file_type](./12-file_type)
   * Required : Write a script that prints the type of the file named iamafile.
-  <br>  
+<br>  
   
 * **13. We are symbols, and inhabit symbols**
   * File : [13-symbolic_link](./13-symbolic_link)
