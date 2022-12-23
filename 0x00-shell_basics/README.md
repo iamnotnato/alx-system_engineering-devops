@@ -21,9 +21,8 @@ These are projects that helped me understand bash scripting.
 
 * **0. Where am I?**
   * File : [0-current_working_directory](./0-current_working_directory)
-  <br>
   Required : A script that prints the absolute path name of the current working directory.
-
+ <br>
 * **1. What’s in there?**
   *  File : [1-listit](./1-listit)
    <br>
