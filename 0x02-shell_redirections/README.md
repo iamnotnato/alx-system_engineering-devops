@@ -1,6 +1,4 @@
-# alx-system_engineering-devops
-A shell project.
-
+<h4>0x02-shell_redirections</h4>
 <h4>Summary: </h4>
 These are projects that helped me understand bash scripting.
 
@@ -22,3 +20,7 @@ These are projects that helped me understand bash scripting.
 <h4>Projects Guide: </h4>
 
 * [0x00 - Shell Basics](./0x00-shell_basics)
+* [0x01 - Shell Permissions](./0x01-shell_permissions)
+* [0x02 - Shell Redirections](./0x02-shell_redirections)
+* [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)
+
