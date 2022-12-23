@@ -68,6 +68,7 @@ These are projects that helped me understand bash scripting.
   * File : [9-firstdirdeletion](./9-firstdirdeletion)
   * Required : Delete the directory my_first_directory that is in the /tmp directory.
  <br> 
+ 
 * **10. Back to the future**
   * File : [10-back](./10-back)
   * Required : A script that changes the working directory to the previous one.
