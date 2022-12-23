@@ -77,7 +77,7 @@ These are projects that helped me understand bash scripting.
 * **11. Lists**
   * File : [11-lists](./11-lists)
   * Required : Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden)
-  * in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+  in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 <br> 
  
 * **12. File type**
@@ -92,7 +92,8 @@ These are projects that helped me understand bash scripting.
  
 * **14. Copy HTML files**
   * File : [14-copy_html](./14-copy_html)
-  * Required : Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+  * Required : Create a script that copies all the HTML files from the current working directory to the parent of the working directory,
+  but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 <br>   
    
 * **15. Let’s move**
