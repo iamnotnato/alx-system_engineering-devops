@@ -41,7 +41,7 @@ These are projects that helped me understand bash scripting.
  
 * **4. Hidden files**
   * File : [4-listmorefiles](./4-listmorefiles)
-  * Required :Display current directory contents, including hidden files (starting with .). Use the long format.
+  * Required : Display current directory contents, including hidden files (starting with .). Use the long format.
 <br>   
    
 * **5. I love numbers**
@@ -82,41 +82,41 @@ These are projects that helped me understand bash scripting.
  
 * **12. File type**
   * File : [12-file_type](./12-file_type)
-  * Required : Write a script that prints the type of the file named iamafile.
+  * Required : A script that prints the type of the file named iamafile.
 <br>  
   
 * **13. We are symbols, and inhabit symbols**
   * File : [13-symbolic_link](./13-symbolic_link)
-  * Required : Create a symbolic link to /bin/ls, named __ls__.
+  * Required : A symbolic link to /bin/ls, named __ls__.
 <br> 
  
 * **14. Copy HTML files**
   * File : [14-copy_html](./14-copy_html)
-  * Required : Create a script that copies all the HTML files from the current working directory to the parent of the working directory,
+  * Required : A script that copies all the HTML files from the current working directory to the parent of the working directory,
   but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 <br>   
    
 * **15. Let’s move**
   * File : [100-lets_move](./100-lets_move)
-  * Required : Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+  * Required : A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 <br> 
  
 * **16. Clean Emacs**
   * File : [101-clean_emacs](./101-clean_emacs)
-  * Required : Create a script that deletes all files in the current working directory that end with the character ~.
+  * Required : A script that deletes all files in the current working directory that end with the character ~.
 <br>  
   
 * **17. Tree**
   * File : [102-tree](./102-tree)
-  * Required : Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+  * Required : A script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 <br> 
  
 * **18. Life is a series of commas, not periods**
   * File : [103-commas](./103-commas)
-  * Required : Write a command that lists all the files and directories of the current directory, separated by commas (,).
+  * Required : A command that lists all the files and directories of the current directory, separated by commas (,).
 <br>  
   
 * **19. File type: School**
   * File : [school.mgc](./school.mgc)
-  * Required : Create a magic file school.mgc that can be used with the command file to detect School data files.
+  * Required : A magic file school.mgc that can be used with the command file to detect School data files.
 <br>
