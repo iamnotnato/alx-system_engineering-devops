@@ -1,6 +1,4 @@
 # alx-system_engineering-devops
-A shell project.
-
 <h4>Summary: </h4>
 These are projects that helped me understand bash scripting.
 
