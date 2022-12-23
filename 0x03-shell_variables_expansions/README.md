@@ -1,4 +1,4 @@
-<h4>Project : 0x00-shell_basics</h4>
+<h4>Project : 0x03-shell_variables_expansions</h4>
 <h4>Summary: </h4>
 These are projects that helped me understand bash scripting.
 
@@ -19,104 +19,93 @@ These are projects that helped me understand bash scripting.
   
   <h4>List of Tasks:</h4>
 
-* **0. Where am I?**
-  * File : [0-current_working_directory](./0-current_working_directory)
-  * Required : A script that prints the absolute path name of the current working directory.
+* **0. <o>**
+  * File : [0-alias](./0-alias)
+  * Required : A script that creates an alias.
 <br> 
  
-* **1. What’s in there?**
-  * File : [1-listit](./1-listit)
-  * Required : Display the contents list of your current directory.
+* **1. Hello you**
+  * File : [1-hello_you](./1-hello_you)
+  * Required : A script that prints hello user, where user is the current Linux user.
 <br>  
  
-* **2. There is no place like home**
-  * File : [2-bring_me_home](./2-bring_me_home)
-  * Required : A script that changes the working directory to the user’s home directory.
+* **2. The path to success is to take massive, determined action**
+  * File : [2-path](./2-path)
+  * Required : Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 <br>   
    
-* **3. The long format**
-  * File : [3-listfiles](./3-listfiles)
-  * Required : Display current directory contents in a long format
+* **3. If the path be beautiful, let us not ask where it leads**
+  * File : [3-paths](./3-paths)
+  * Required : A script that counts the number of directories in the PATH.
 <br> 
  
-* **4. Hidden files**
-  * File : [4-listmorefiles](./4-listmorefiles)
-  * Required :Display current directory contents, including hidden files (starting with .). Use the long format.
+* **4. Global variables**
+  * File : [4-global_variables](./4-global_variables)
+  * Required : A script that lists environment variables.
 <br>   
    
-* **5. I love numbers**
-  * File : [5-listfilesdigitonly](./5-listfilesdigitonly)
-  * Required : Display current directory contents.
+* **5. Local variables**
+  * File : [5-local_variables](./5-local_variables)
+  * Required : A script that lists all local variables and environment variables, and functions.
 <br> 
  
-* **6. Welcome**
-  * File : [6-firstdirectory](./6-firstdirectory)
-  * Required : A script that creates a directory named my_first_directory in the /tmp/ directory.
+* **6. Local variable**
+  * File : [6-create_local_variable](./6-create_local_variable)
+  * Required : A script that creates a new local variable.
 <br>   
    
-* **7. Betty in my first directory**
-  * File : [7-movethatfile](./7-movethatfile)
-  * Required : Move the file betty from /tmp/ to /tmp/my_first_directory.
+* **7. Global variable**
+  * File : [7-create_global_variable](./7-create_global_variable)
+  * Required : A script that creates a new global variable.
 <br> 
  
-* **8. Bye bye Betty**
-  * File : [8-firstdelete](./8-firstdelete)
-  * Required : Delete the file betty.
+* **8. Every addition to true knowledge is an addition to human power**
+  * File : [8-true_knowledge](./8-true_knowledge)
+  * Required : A script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 <br>    
     
-* **9. Bye bye My first directory**
-  * File : [9-firstdirdeletion](./9-firstdirdeletion)
-  * Required : Delete the directory my_first_directory that is in the /tmp directory.
+* **9. Divide and rule**
+  * File : [9-divide_and_rule](./9-divide_and_rule)
+  * Required : A script that prints the result of POWER divided by DIVIDE, followed by a new line.
 <br> 
  
-* **10. Back to the future**
-  * File : [10-back](./10-back)
-  * Required : A script that changes the working directory to the previous one.
+* **10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath**
+  * File : [10-love_exponent_breath](./10-love_exponent_breath)
+  * Required : A script that displays the result of BREATH to the power LOVE
 <br> 
  
-* **11. Lists**
-  * File : [11-lists](./11-lists)
-  * Required : Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden)
-  in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+* **11. There are 10 types of people in the world -- Those who understand binary, and those who don't**
+  * File : [11-binary_to_decimal](./11-binary_to_decimal)
+  * Required : A script that converts a number from base 2 to base 10.
 <br> 
  
-* **12. File type**
-  * File : [12-file_type](./12-file_type)
-  * Required : Write a script that prints the type of the file named iamafile.
+* **12. Combination**
+  * File : [12-combinations](./12-combinations)
+  * Required : A script that prints all possible combinations of two letters, except oo.
 <br>  
   
-* **13. We are symbols, and inhabit symbols**
-  * File : [13-symbolic_link](./13-symbolic_link)
-  * Required : Create a symbolic link to /bin/ls, named __ls__.
+* **13. Floats**
+  * File : [13-print_float](./13-print_float)
+  * Required : A script that prints a number with two decimal places, followed by a new line.
 <br> 
  
-* **14. Copy HTML files**
-  * File : [14-copy_html](./14-copy_html)
-  * Required : Create a script that copies all the HTML files from the current working directory to the parent of the working directory,
-  but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+* **14. Decimal to Hexadecimal**
+  * File : [100-decimal_to_hexadecimal](./100-decimal_to_hexadecimal)
+  * Required : A script that converts a number from base 10 to base 16.
 <br>   
    
-* **15. Let’s move**
-  * File : [100-lets_move](./100-lets_move)
-  * Required : Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+* **15. Everyone is a proponent of strong encryption**
+  * File : [101-rot13](./101-rot13)
+  * Required : A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 <br> 
  
-* **16. Clean Emacs**
-  * File : [101-clean_emacs](./101-clean_emacs)
-  * Required : Create a script that deletes all files in the current working directory that end with the character ~.
+* **16. The eggs of the brood need to be an odd number**
+  * File : [102-odd](./102-odd)
+  * Required : A script that prints every other line from the input, starting with the first line.
 <br>  
   
-* **17. Tree**
-  * File : [102-tree](./102-tree)
-  * Required : Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+* **17. I'm an instant star. Just add water and stir.**
+  * File : [103-water_and_stir](./103-water_and_stir)
+  * Required : A shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 <br> 
  
-* **18. Life is a series of commas, not periods**
-  * File : [103-commas](./103-commas)
-  * Required : Write a command that lists all the files and directories of the current directory, separated by commas (,).
-<br>  
-  
-* **19. File type: School**
-  * File : [school.mgc](./school.mgc)
-  * Required : Create a magic file school.mgc that can be used with the command file to detect School data files.
-<br>
