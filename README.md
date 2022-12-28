@@ -18,6 +18,7 @@ These are projects that helped me understand bash scripting.
 </table>
 
 <br>
+
 ![Alt](https://repobeats.axiom.co/api/embed/91ac37b53e43b84fc8bee59df74f32cb4c53c465.svg "Repobeats analytics image")
 
 
