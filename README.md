@@ -1,4 +1,9 @@
-# alx-system_engineering-devops
+<div>
+  <h4>Project : alx-system_engineering-devops</h4>
+  <a href="https://github.com/iamnotnato/alx-system_engineering-devops">
+    <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/images/logo.png" alt="Logo" width="100" height="100">
+  </a>
+</div>
 <h4>Summary: </h4>
 These are projects that helped me understand bash scripting.
 
