@@ -17,6 +17,10 @@ These are projects that helped me understand bash scripting.
   </tr>
 </table>
 
+<br>
+![Alt](https://repobeats.axiom.co/api/embed/91ac37b53e43b84fc8bee59df74f32cb4c53c465.svg "Repobeats analytics image")
+
+
 <h4>Projects Guide: </h4>
 
 * [0x00 - Shell Basics](./0x00-shell_basics)
