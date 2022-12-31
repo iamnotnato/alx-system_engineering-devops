@@ -149,7 +149,8 @@ These are projects that helped me understand bash scripting.
 * **22. DJ Cut Killer**
   * File : [22-users_and_homes](./22-users_and_homes)
   * Required : A script that displays all users and their home directories, sorted by users.
-    * 💡*Fun Fact : DJ Cut Killer or simply Cut Killer, is a Moroccan-born French DJ and record producer with a versatile repertoire of hip hop music.*
+
+* 💡*Fun Fact : DJ Cut Killer or simply Cut Killer, is a Moroccan-born French DJ and record producer with a versatile repertoire of hip hop music.*
 <br>  
   
 * **23. Empty casks make the most noise**
