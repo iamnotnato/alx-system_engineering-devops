@@ -129,7 +129,7 @@ These are projects that helped me understand bash scripting.
 * **21. esreveR**
   * File : [21-reverse](./21-reverse)
   * Required : A script that reverse its input.
-    * *Fun Fact : Esrever is simply the word REVERSE in reverse.*
+    * 💡*Fun Fact : Esrever is simply the word REVERSE in reverse.*
 <br>
 
 * **22. DJ Cut Killer**
