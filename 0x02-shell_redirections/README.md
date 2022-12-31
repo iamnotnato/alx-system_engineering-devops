@@ -143,14 +143,15 @@ These are projects that helped me understand bash scripting.
 * **21. esreveR**
   * File : [21-reverse](./21-reverse)
   * Required : A script that reverse its input.
-    * 💡*Fun Fact : Esrever is simply the word REVERSE in reverse.*
+  
+💡*Fun Fact : Esrever is simply the word REVERSE in reverse.*
 <br>
 
 * **22. DJ Cut Killer**
   * File : [22-users_and_homes](./22-users_and_homes)
   * Required : A script that displays all users and their home directories, sorted by users.
 
-* 💡*Fun Fact : DJ Cut Killer or simply Cut Killer, is a Moroccan-born French DJ and record producer with a versatile repertoire of hip hop music.*
+💡*Fun Fact : DJ Cut Killer or simply Cut Killer, is a Moroccan-born French DJ and record producer with a versatile repertoire of hip hop music.*
 <br>  
   
 * **23. Empty casks make the most noise**
@@ -163,7 +164,7 @@ These are projects that helped me understand bash scripting.
     * The listing should end with a new line.
     * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
 
-* 💡*Fun Fact :  “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
+💡*Fun Fact :  “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
 <br>
 
 * **24. A gif is worth ten thousand words**
@@ -179,7 +180,7 @@ These are projects that helped me understand bash scripting.
     * The listing should end with a new line.
     * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
 
-* 💡*Fun Fact :  “It is based on a fantastic post by Jennifer Taylor on the origin of the GIF*
+💡*Fun Fact :  “It is based on a fantastic post by Jennifer Taylor on the origin of the GIF*
 <br>  
   
 * **25. Acrostic**
@@ -189,7 +190,7 @@ These are projects that helped me understand bash scripting.
     * The ‘decoded’ message has to end with a new line.
     * You are not allowed to use grep, egrep, fgrep or rgrep.
 
-* 💡*Fun Fact :  “An acrostic is a poem or other word composition in which the first letter of each new line spells out a word, message or the alphabet.*
+💡*Fun Fact :  “An acrostic is a poem or other word composition in which the first letter of each new line spells out a word, message or the alphabet.*
 <br>
 
 * **26. The biggest fan**
