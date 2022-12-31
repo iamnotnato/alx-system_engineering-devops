@@ -161,7 +161,7 @@ These are projects that helped me understand bash scripting.
     * One file name per line.
     * The listing should end with a new line.
     * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
-<br>
+
     * 💡*Fun Fact :  “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
 <br>
 
