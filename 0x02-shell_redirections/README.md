@@ -135,21 +135,25 @@ These are projects that helped me understand bash scripting.
 * **22. DJ Cut Killer**
   * File : [22-users_and_homes](./22-users_and_homes)
   * Required : A script that displays all users and their home directories, sorted by users.
+    * 💡*Fun Fact : DJ Cut Killer or simply Cut Killer, is a Moroccan-born French DJ and record producer with a versatile repertoire of hip hop music.*
 <br>  
   
 * **23. Empty casks make the most noise**
   * File : [100-empty_casks](./100-empty_casks)
   * Required : A command that finds all empty files and directories in the current directory and all sub-directories.
+    * 💡*Fun Fact :  “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
 <br>
 
 * **24. A gif is worth ten thousand words**
   * File : [101-gifs](./101-gifs)
   * Required : A script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+     * 💡*Fun Fact :  “It is based on a fantastic post by Jennifer Taylor on the origin of the GIF*
 <br>  
   
 * **25. Acrostic**
   * File : [102-acrostic](./102-acrostic)
   * Required : A script that decodes acrostics that use the first letter of each line.
+    * 💡*Fun Fact :  “An acrostic is a poem or other word composition in which the first letter of each new line spells out a word, message or the alphabet.*
 <br>
 
 * **26. The biggest fan**
