@@ -52,6 +52,8 @@ These are projects that helped me understand bash scripting.
 * **6. Line #2**
   * File : [6-third_line](./6-third_line)
   * Required : A script that displays the third line of the file iacta.
+  * Expected Results :
+    * You’re not allowed to use sed.
 <br>   
    
 * **7. It is a good file that cuts iron without making a noise**
@@ -79,16 +81,26 @@ These are projects that helped me understand bash scripting.
 * **11. Don't just count your directories, make your directories count**
   * File : [11-directories](./11-directories)
   * Required : A script that counts the number of directories and sub-directories in the current directory.
+  * Expected Results :
+    * The current and parent directories should not be taken into account.
+    * Hidden directories should be counted.
 <br> 
  
 * **12. What’s new**
   * File : [12-newest_files](./12-newest_files)
   * Required : A script that displays the 10 newest files in the current directory.
+  * Expected Results :
+    * One file per line.
+    * Sorted from the newest to the oldest.
 <br>  
   
 * **13. Being unique is better than being perfect**
   * File : [13-unique](./13-unique)
   * Required : A script that takes a list of words as input and prints only words that appear exactly once.
+  * Expected Results :
+    * Input format: One line, one word.
+    * Output format: One line, one word.
+    * Words should be sorted.
 <br> 
  
 * **14. It must be in that file**
@@ -114,6 +126,8 @@ These are projects that helped me understand bash scripting.
 * **18. Letters only please**
   * File : [18-letteronly](./18-letteronly)
   * Required : Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+  * Expected Results :
+    * include capital letters as well.
 <br>  
   
 * **19. A to Z**
@@ -141,22 +155,46 @@ These are projects that helped me understand bash scripting.
 * **23. Empty casks make the most noise**
   * File : [100-empty_casks](./100-empty_casks)
   * Required : A command that finds all empty files and directories in the current directory and all sub-directories.
+  * Expected Results :
+    * Only the names of the files and directories should be displayed (not the entire path)
+    * Hidden files should be listed.
+    * One file name per line.
+    * The listing should end with a new line.
+    * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
+<br>
     * 💡*Fun Fact :  “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
 <br>
 
 * **24. A gif is worth ten thousand words**
   * File : [101-gifs](./101-gifs)
   * Required : A script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+  * Expected Results :
+    * Hidden files should be listed.
+    * Only regular files (not directories) should be listed.
+    * The names of the files should be displayed without their extensions.
+    * The files should be sorted by byte values, but case-insensitive
+      *(file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
+    * One file name per line.
+    * The listing should end with a new line.
+    * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
+<br>
      * 💡*Fun Fact :  “It is based on a fantastic post by Jennifer Taylor on the origin of the GIF*
 <br>  
   
 * **25. Acrostic**
   * File : [102-acrostic](./102-acrostic)
   * Required : A script that decodes acrostics that use the first letter of each line.
+  * Expected Results :
+    * The ‘decoded’ message has to end with a new line.
+    * You are not allowed to use grep, egrep, fgrep or rgrep.
+<br>
     * 💡*Fun Fact :  “An acrostic is a poem or other word composition in which the first letter of each new line spells out a word, message or the alphabet.*
 <br>
 
 * **26. The biggest fan**
   * File : [103-the_biggest_fan](./103-the_biggest_fan)
   * Required : A script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+  * Expected Results :
+    * Order by number of requests, most active host or IP at the top.
+    * You are not allowed to use grep, egrep, fgrep or rgrep.
 <br>
