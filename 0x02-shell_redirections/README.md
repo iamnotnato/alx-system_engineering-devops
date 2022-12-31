@@ -61,7 +61,9 @@ These are projects that helped me understand bash scripting.
  
 * **8. Save current state of directory**
   * File : [8-cwd_state](./8-cwd_state)
-  * Required : A script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
+  * Required : 
+    * A script that writes into the file ls_cwd_content the result of the command ls -la. 
+    * If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
 <br>    
     
 * **9. Duplicate last line**
