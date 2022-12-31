@@ -177,8 +177,8 @@ These are projects that helped me understand bash scripting.
     * One file name per line.
     * The listing should end with a new line.
     * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
-<br>
-     * 💡*Fun Fact :  “It is based on a fantastic post by Jennifer Taylor on the origin of the GIF*
+
+* 💡*Fun Fact :  “It is based on a fantastic post by Jennifer Taylor on the origin of the GIF*
 <br>  
   
 * **25. Acrostic**
@@ -187,8 +187,8 @@ These are projects that helped me understand bash scripting.
   * Expected Results :
     * The ‘decoded’ message has to end with a new line.
     * You are not allowed to use grep, egrep, fgrep or rgrep.
-<br>
-    * 💡*Fun Fact :  “An acrostic is a poem or other word composition in which the first letter of each new line spells out a word, message or the alphabet.*
+
+* 💡*Fun Fact :  “An acrostic is a poem or other word composition in which the first letter of each new line spells out a word, message or the alphabet.*
 <br>
 
 * **26. The biggest fan**
