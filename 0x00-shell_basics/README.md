@@ -76,8 +76,11 @@ These are projects that helped me understand bash scripting.
  
 * **11. Lists**
   * File : [11-lists](./11-lists)
-  * Required : Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden)
-  in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+  * Required : 
+    * **A script that lists all files in the current directory.**
+    * **It lists all files in the the parent of the working directory.**
+    * **It lists all files in the /boot directory (in this order), in long format.**
+    * **(even ones with names beginning with a period character, which are normally hidden)** 
 <br> 
  
 * **12. File type**
@@ -118,7 +121,7 @@ These are projects that helped me understand bash scripting.
   * File : [103-commas](./103-commas)
   * Required : A command that lists all the files and directories of the current directory, separated by commas (,).
   
-💡*Fun Fact : "Life is a series of commas, not periods." - Matthew McConaughey*
+> 💡*Fun Fact : "Life is a series of commas, not periods." - Matthew McConaughey*
 <br>  
   
 * **19. File type: School**
