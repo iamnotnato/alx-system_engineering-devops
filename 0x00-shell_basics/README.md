@@ -88,6 +88,8 @@ These are projects that helped me understand bash scripting.
 * **13. We are symbols, and inhabit symbols**
   * File : [13-symbolic_link](./13-symbolic_link)
   * Required : A symbolic link to /bin/ls, named __ls__.
+  
+💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 <br> 
  
 * **14. Copy HTML files**
@@ -114,6 +116,8 @@ These are projects that helped me understand bash scripting.
 * **18. Life is a series of commas, not periods**
   * File : [103-commas](./103-commas)
   * Required : A command that lists all the files and directories of the current directory, separated by commas (,).
+  
+💡*Fun Fact : "Life is a series of commas, not periods." - Matthew McConaughey*
 <br>  
   
 * **19. File type: School**
