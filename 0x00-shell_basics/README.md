@@ -89,7 +89,8 @@ These are projects that helped me understand bash scripting.
   * File : [13-symbolic_link](./13-symbolic_link)
   * Required : A symbolic link to /bin/ls, named __ls__.
   
-💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
+  
+> 💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 <br> 
  
 * **14. Copy HTML files**
