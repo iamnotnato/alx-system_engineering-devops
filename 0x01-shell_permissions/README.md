@@ -80,7 +80,7 @@ These are projects that helped me understand bash scripting.
   * File : [10-mirror_permissions](./10-mirror_permissions)
   * Required : A script that sets the mode of the file hello the same as olleh’s mode.
 
-> 💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
+> 💡*Idiom : To consider, realize, or admit one's own failing or culpability in relation to some issue.*
 <br> 
  
 * **11. Directories**
@@ -117,5 +117,4 @@ These are projects that helped me understand bash scripting.
   * File : [103-Star_Wars](./103-Star_Wars)
   * Required : A script that will play the StarWars IV episode in the terminal.
 
-> 💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
-<br> 
+> 💡*Fun Fact : "Star Wars is an American epic space opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon.*
