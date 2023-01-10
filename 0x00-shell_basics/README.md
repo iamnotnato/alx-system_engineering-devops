@@ -32,7 +32,8 @@ These are projects that helped me understand bash scripting.
 * **2. There is no place like home**
   * File : [2-bring_me_home](./2-bring_me_home)
   * Required : A script that changes the working directory to the user’s home directory.
-<br>   
+
+> 💡Fun Fact : **"There's no place like home," the last line of the 1822 song "Home!**
    
 * **3. The long format**
   * File : [3-listfiles](./3-listfiles)
