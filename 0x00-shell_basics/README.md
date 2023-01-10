@@ -73,7 +73,8 @@ These are projects that helped me understand bash scripting.
 * **10. Back to the future**
   * File : [10-back](./10-back)
   * Required : A script that changes the working directory to the previous one.
-<br> 
+
+> 💡**Fun Fact : "Back to the Future is a 1985 American science fiction film directed by Robert Zemeckis, and written by Zemeckis and Bob Gale."**
  
 * **11. Lists**
   * File : [11-lists](./11-lists)
