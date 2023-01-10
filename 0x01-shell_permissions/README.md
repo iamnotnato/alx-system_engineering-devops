@@ -63,14 +63,17 @@ These are projects that helped me understand bash scripting.
   * File : [8-James_Bond](./8-James_Bond)
   * Required : A script that sets the permissions stated.
 
-> 💡*Fun Fact : "James Bond is a fictional character created by British novelist Ian Fleming in 1953.* 
+> 💡*Fun Fact : James Bond is a fictional character created by British novelist Ian Fleming in 1953.* 
+> 
 > *A British secret agent working for MI6 under the codename 007, Bond has been portrayed on film in twenty-seven productions by actors*
     
 * **9. John Doe**
   * File : [9-John_Doe](./9-John_Doe)
   * Required : A script that sets the mode of the file to -rwxr-x-wx.
 
-> 💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
+> 💡*Fun Fact : John Doe and Jane Doe are multiple-use placeholder names that are used when the true name of a person is unknown or is being intentionally concealed.*
+>  
+> *In the context of law enforcement in the United States, such names are often used to refer to a corpse whose identity is unknown or unconfirmed.*
 <br> 
  
 * **10. Look in the mirror**
