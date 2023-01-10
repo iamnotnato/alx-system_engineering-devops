@@ -62,16 +62,22 @@ These are projects that helped me understand bash scripting.
 * **8. James Bond**
   * File : [8-James_Bond](./8-James_Bond)
   * Required : A script that sets the permissions stated.
-<br>    
+
+> 💡*Fun Fact : "James Bond is a fictional character created by British novelist Ian Fleming in 1953.* 
+> *A British secret agent working for MI6 under the codename 007, Bond has been portrayed on film in twenty-seven productions by actors*
     
 * **9. John Doe**
   * File : [9-John_Doe](./9-John_Doe)
   * Required : A script that sets the mode of the file to -rwxr-x-wx.
+
+> 💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 <br> 
  
 * **10. Look in the mirror**
   * File : [10-mirror_permissions](./10-mirror_permissions)
   * Required : A script that sets the mode of the file hello the same as olleh’s mode.
+
+> 💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 <br> 
  
 * **11. Directories**
@@ -107,4 +113,6 @@ These are projects that helped me understand bash scripting.
 * **17. Star Wars**
   * File : [103-Star_Wars](./103-Star_Wars)
   * Required : A script that will play the StarWars IV episode in the terminal.
+
+> 💡*Fun Fact : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 <br> 
