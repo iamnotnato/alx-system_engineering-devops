@@ -60,7 +60,7 @@ These are projects that helped me understand bash scripting.
   * File : [7-file](./7-file)
   * Required : A shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 
-> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
+> 🦉 *Proverb : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
  
 * **8. Save current state of directory**
   * File : [8-cwd_state](./8-cwd_state)
@@ -103,7 +103,7 @@ These are projects that helped me understand bash scripting.
     * Output format: One line, one word.
     * Words should be sorted.
 
-> 💡*Fun Fact : Quote by Maya Angelou : “If you are always trying to be normal, you will never know how amazing you can be.”*
+> 💬 *Quote : Quote by Maya Angelou : “If you are always trying to be normal, you will never know how amazing you can be.”*
  
 * **14. It must be in that file**
   * File : [14-findthatword](./14-findthatword)
@@ -167,7 +167,7 @@ These are projects that helped me understand bash scripting.
     * The listing should end with a new line.
     * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
 
-> 💡*Fun Fact :  “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
+> ✏️ *Phrase : “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
 <br>
 
 * **24. A gif is worth ten thousand words**
