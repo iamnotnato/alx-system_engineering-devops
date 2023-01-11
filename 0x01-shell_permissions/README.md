@@ -80,7 +80,7 @@ These are projects that helped me understand bash scripting.
   * File : [10-mirror_permissions](./10-mirror_permissions)
   * Required : A script that sets the mode of the file hello the same as olleh’s mode.
 
-> 💡*Idiom : To consider, realize, or admit one's own failing or culpability in relation to some issue.*
+> ✍️ *Idiom : To consider, realize, or admit one's own failing or culpability in relation to some issue.*
 <br> 
  
 * **11. Directories**
