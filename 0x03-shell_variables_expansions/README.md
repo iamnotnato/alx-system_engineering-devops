@@ -72,19 +72,20 @@ These are projects that helped me understand bash scripting.
   * Required : A script that prints the result of POWER divided by DIVIDE, followed by a new line.
 
 > 💡*Fun Fact : Divide and rule policy, or divide and conquer, in politics and sociology is gaining and maintaining power divisively.*
+>
 > *Historically, this strategy was used in many different ways by empires seeking to expand their territories.* 
  
 * **10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath**
   * File : [10-love_exponent_breath](./10-love_exponent_breath)
   * Required : A script that displays the result of BREATH to the power LOVE
 
-> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
+> 💡*Fun Fact : Love is anterior to life, posterior to death, initial of creation, and the exponent of breath. - Emily Dickinson* 
  
 * **11. There are 10 types of people in the world -- Those who understand binary, and those who don't**
   * File : [11-binary_to_decimal](./11-binary_to_decimal)
   * Required : A script that converts a number from base 2 to base 10.
 
-> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
+> 💡*Joke : “There are only 10 types of people in the world: those who understand binary and those who don’t.” — Unknown.* 
  
 * **12. Combination**
   * File : [12-combinations](./12-combinations)
@@ -105,16 +106,16 @@ These are projects that helped me understand bash scripting.
   * File : [101-rot13](./101-rot13)
   * Required : A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
-> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
+> 💡*Fun Fact : Everyone is a proponent of strong encryption. - Dorothy Denning* 
  
 * **16. The eggs of the brood need to be an odd number**
   * File : [102-odd](./102-odd)
   * Required : A script that prints every other line from the input, starting with the first line.
 
-> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
+> 💡*Fun Fact : The eggs of the brood need to be an odd number. Sicilian Proverbs* 
   
 * **17. I'm an instant star. Just add water and stir.**
   * File : [103-water_and_stir](./103-water_and_stir)
   * Required : A shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 
-> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
+> 💡*Fun Fact : "I'm an instant star. Just add water and stir." - David Bowie* 
