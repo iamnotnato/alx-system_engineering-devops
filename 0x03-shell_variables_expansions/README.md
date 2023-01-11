@@ -32,12 +32,14 @@ These are projects that helped me understand bash scripting.
 * **2. The path to success is to take massive, determined action**
   * File : [2-path](./2-path)
   * Required : Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
-<br>   
+
+> 💡*Fun Fact : The path to success is to take massive, determined action. - Tony Robbins* 
    
 * **3. If the path be beautiful, let us not ask where it leads**
   * File : [3-paths](./3-paths)
   * Required : A script that counts the number of directories in the PATH.
-<br> 
+
+> 💡*Fun Fact : Anatole France — 'If the path be beautiful, let us not ask where it leads.'* 
  
 * **4. Global variables**
   * File : [4-global_variables](./4-global_variables)
@@ -62,22 +64,27 @@ These are projects that helped me understand bash scripting.
 * **8. Every addition to true knowledge is an addition to human power**
   * File : [8-true_knowledge](./8-true_knowledge)
   * Required : A script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
-<br>    
+
+> 💡*Fun Fact : Every addition to true knowledge is an addition to human power.“ - Horace Mann.* 
     
 * **9. Divide and rule**
   * File : [9-divide_and_rule](./9-divide_and_rule)
   * Required : A script that prints the result of POWER divided by DIVIDE, followed by a new line.
-<br> 
+
+> 💡*Fun Fact : Divide and rule policy, or divide and conquer, in politics and sociology is gaining and maintaining power divisively.*
+> *Historically, this strategy was used in many different ways by empires seeking to expand their territories.* 
  
 * **10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath**
   * File : [10-love_exponent_breath](./10-love_exponent_breath)
   * Required : A script that displays the result of BREATH to the power LOVE
-<br> 
+
+> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
  
 * **11. There are 10 types of people in the world -- Those who understand binary, and those who don't**
   * File : [11-binary_to_decimal](./11-binary_to_decimal)
   * Required : A script that converts a number from base 2 to base 10.
-<br> 
+
+> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
  
 * **12. Combination**
   * File : [12-combinations](./12-combinations)
@@ -97,15 +104,17 @@ These are projects that helped me understand bash scripting.
 * **15. Everyone is a proponent of strong encryption**
   * File : [101-rot13](./101-rot13)
   * Required : A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
-<br> 
+
+> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
  
 * **16. The eggs of the brood need to be an odd number**
   * File : [102-odd](./102-odd)
   * Required : A script that prints every other line from the input, starting with the first line.
-<br>  
+
+> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
   
 * **17. I'm an instant star. Just add water and stir.**
   * File : [103-water_and_stir](./103-water_and_stir)
   * Required : A shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
-<br> 
- 
+
+> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
