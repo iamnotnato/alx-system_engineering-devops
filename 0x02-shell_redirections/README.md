@@ -59,7 +59,8 @@ These are projects that helped me understand bash scripting.
 * **7. It is a good file that cuts iron without making a noise**
   * File : [7-file](./7-file)
   * Required : A shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
-<br> 
+
+> 💡*Fun Fact : It is a good file that cuts iron without making a noise. Italian Proverbs.* 
  
 * **8. Save current state of directory**
   * File : [8-cwd_state](./8-cwd_state)
@@ -85,7 +86,7 @@ These are projects that helped me understand bash scripting.
     * The current and parent directories should not be taken into account.
     * Hidden directories should be counted.
 <br> 
- 
+
 * **12. What’s new**
   * File : [12-newest_files](./12-newest_files)
   * Required : A script that displays the 10 newest files in the current directory.
@@ -101,7 +102,9 @@ These are projects that helped me understand bash scripting.
     * Input format: One line, one word.
     * Output format: One line, one word.
     * Words should be sorted.
-<br> 
+
+> 💡*Fun Fact : Maya Angelou*
+> *“If you are always trying to be normal, you will never know how amazing you can be.” *
  
 * **14. It must be in that file**
   * File : [14-findthatword](./14-findthatword)
@@ -138,20 +141,21 @@ These are projects that helped me understand bash scripting.
 * **20. Without C, you would live in hiago**
   * File : [20-hiago](./20-hiago)
   * Required : A script that removes all letters c and C from input.
-<br>  
+
+> 💡*Fun Fact : James Bond is a fictional character created by British novelist Ian Fleming in 1953.* 
   
 * **21. esreveR**
   * File : [21-reverse](./21-reverse)
   * Required : A script that reverse its input.
   
-💡*Fun Fact : Esrever is simply the word REVERSE in reverse.*
+> 💡*Fun Fact : Esrever is simply the word REVERSE in reverse.*
 <br>
 
 * **22. DJ Cut Killer**
   * File : [22-users_and_homes](./22-users_and_homes)
   * Required : A script that displays all users and their home directories, sorted by users.
 
-💡*Fun Fact : DJ Cut Killer or simply Cut Killer, is a Moroccan-born French DJ and record producer with a versatile repertoire of hip hop music.*
+> 💡*Fun Fact : DJ Cut Killer or simply Cut Killer, is a Moroccan-born French DJ and record producer with a versatile repertoire of hip hop music.*
 <br>  
   
 * **23. Empty casks make the most noise**
@@ -164,7 +168,7 @@ These are projects that helped me understand bash scripting.
     * The listing should end with a new line.
     * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
 
-💡*Fun Fact :  “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
+> 💡*Fun Fact :  “Empty barrels make the most noise” is a phrase which refers to how people with little to say are often the loudest.*
 <br>
 
 * **24. A gif is worth ten thousand words**
@@ -180,7 +184,7 @@ These are projects that helped me understand bash scripting.
     * The listing should end with a new line.
     * You are not allowed to use basename, grep, egrep, fgrep or rgrep.
 
-💡*Fun Fact :  “It is based on a fantastic post by Jennifer Taylor on the origin of the GIF*
+> 💡*Fun Fact :  “It is based on a fantastic post by Jennifer Taylor on the origin of the GIF*
 <br>  
   
 * **25. Acrostic**
@@ -190,7 +194,7 @@ These are projects that helped me understand bash scripting.
     * The ‘decoded’ message has to end with a new line.
     * You are not allowed to use grep, egrep, fgrep or rgrep.
 
-💡*Fun Fact :  “An acrostic is a poem or other word composition in which the first letter of each new line spells out a word, message or the alphabet.*
+> 💡*Fun Fact :  “An acrostic is a poem or other word composition in which the first letter of each new line spells out a word, message or the alphabet.*
 <br>
 
 * **26. The biggest fan**
