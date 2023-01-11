@@ -103,8 +103,7 @@ These are projects that helped me understand bash scripting.
     * Output format: One line, one word.
     * Words should be sorted.
 
-> 💡*Fun Fact : Maya Angelou*
-> *“If you are always trying to be normal, you will never know how amazing you can be.” *
+> 💡*Fun Fact : Quote by Maya Angelou : “If you are always trying to be normal, you will never know how amazing you can be.”*
  
 * **14. It must be in that file**
   * File : [14-findthatword](./14-findthatword)
