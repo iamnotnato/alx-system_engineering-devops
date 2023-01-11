@@ -33,7 +33,7 @@ These are projects that helped me understand bash scripting.
   * File : [2-bring_me_home](./2-bring_me_home)
   * Required : A script that changes the working directory to the user’s home directory.
 
-> 🎵*Lyric : "There's no place like home," the last line of the 1822 song "Home!*
+> 🎵 *Lyric : "There's no place like home," the last line of the 1822 song "Home!*
    
 * **3. The long format**
   * File : [3-listfiles](./3-listfiles)
@@ -95,7 +95,7 @@ These are projects that helped me understand bash scripting.
   * Required : A symbolic link to /bin/ls, named __ls__.
   
   
-> 💬*Quote : "We are symbols, and inhabit symbols." - Ralph Waldo.*
+> 💬 *Quote : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 <br> 
  
 * **14. Copy HTML files**
@@ -125,7 +125,7 @@ These are projects that helped me understand bash scripting.
   * File : [103-commas](./103-commas)
   * Required : A command that lists all the files and directories of the current directory, separated by commas (,).
   
-> 💬*Quote : "Life is a series of commas, not periods." - Matthew McConaughey*
+> 💬 *Quote : "Life is a series of commas, not periods." - Matthew McConaughey*
 <br>  
   
 * **19. File type: School**
