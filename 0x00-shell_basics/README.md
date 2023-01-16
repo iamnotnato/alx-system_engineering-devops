@@ -30,7 +30,6 @@
 <br>
 
 > <h4>List of Tasks:</h4>
----
 
 <br>
 
@@ -60,29 +59,44 @@
 
 <br>
    
-📁 **3. The long format**
-  * File : [3-listfiles](./3-listfiles)
-  * Required : Display current directory contents in a long format
+> 📁 **3. The long format**
+
+> 💾 **File :** [3-listfiles](./3-listfiles)
+
+> 📑 **Task :** Display current directory contents in a long format
+
 <br> 
  
-📁 **4. Hidden files**
-  * File : [4-listmorefiles](./4-listmorefiles)
-  * Required : Display current directory contents, including hidden files (starting with .). Use the long format.
+> 📁 **4. Hidden files**
+
+> 💾 **File :** [4-listmorefiles](./4-listmorefiles)
+
+> 📑 **Task :** Display current directory contents, including hidden files (starting with .). Use the long format.
+
 <br>   
    
-📁 **5. I love numbers**
-  * File : [5-listfilesdigitonly](./5-listfilesdigitonly)
-  * Required : Display current directory contents.
+> 📁 **5. I love numbers**
+
+> 💾 **File :** [5-listfilesdigitonly](./5-listfilesdigitonly)
+
+> 📑 **Task :** Display current directory contents.
+
 <br> 
  
-📁 **6. Welcome**
-  * File : [6-firstdirectory](./6-firstdirectory)
-  * Required : A script that creates a directory named my_first_directory in the /tmp/ directory.
+> 📁 **6. Welcome**
+
+> 💾 **File :** [6-firstdirectory](./6-firstdirectory)
+
+> 📑 **Task :** A script that creates a directory named my_first_directory in the /tmp/ directory.
+
 <br>   
    
-📁 **7. Betty in my first directory**
-  * File : [7-movethatfile](./7-movethatfile)
-  * Required : Move the file betty from /tmp/ to /tmp/my_first_directory.
+> 📁 **7. Betty in my first directory**
+
+> 💾 **File :** [7-movethatfile](./7-movethatfile)
+
+> 📑 **Task :** Move the file betty from /tmp/ to /tmp/my_first_directory.
+
 <br> 
  
 📁 **8. Bye bye Betty**
