@@ -131,7 +131,7 @@ These are projects that helped me understand bash scripting.
 📁 **19. File type: School**
 <br>
 
-> 💾 ** File :** [school.mgc](./school.mgc)
+> 💾 **File :** [school.mgc](./school.mgc)
 <br>
 
 > 📑 **Task :** A magic file school.mgc that can be used with the command file to detect School data files.
