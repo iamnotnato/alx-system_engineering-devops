@@ -100,8 +100,11 @@
 <br> 
  
 > 📁 **8. Bye bye Betty**
+> 
 > 💾 **File :** [8-firstdelete](./8-firstdelete)
+> 
 > 📑 **Task :** Delete the file betty.
+> 
 <br>    
     
 **9. Bye bye My first directory**
