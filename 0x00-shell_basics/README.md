@@ -19,6 +19,7 @@
 </table>
   
   <h4>List of Tasks:</h4>
+  <hr>
 
 📁 **0. Where am I?**
 
@@ -26,6 +27,8 @@
 
 > 📑 **Task :** A script that prints the absolute path name of the current working directory.
  
+<br>
+
 📁 **1. What’s in there?**
   * File : [1-listit](./1-listit)
   * Required : Display the contents list of your current directory.
