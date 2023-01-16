@@ -132,9 +132,9 @@
 > 📑 **Task :** A script that lists all files in the current directory.
 >
 > 📝 **Required :**
-    > - **A script that lists all files in the current directory.**
-    > - **It lists all files in the the parent of the working directory.**
-    > - **It lists all files in the /boot directory (in this order), in long format.**
+> 
+>      + **It lists all files in the the parent of the working directory.**
+       > - **It lists all files in the /boot directory (in this order), in long format.**
     > - **(even ones with names beginning with a period character, which are normally hidden)** 
 >
 <br> 
@@ -159,8 +159,7 @@
 > 
 > 💾 **File :** [14-copy_html](./14-copy_html)
 > 
-> 📑 **Task :**
-    * **A script that copies all the HTML files from the current working directory to the parent of the working directory.**
+> 📑 **Task :** A script that copies all the HTML files from the current working directory to the parent of the working directory.
     * **Only copy files that did not exist in the parent of the working directory.**
     * **Only copy files that were newer than the versions in the parent of the working directory.**
 <br>   
