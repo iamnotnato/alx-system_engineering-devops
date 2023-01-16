@@ -21,9 +21,10 @@
   <h4>List of Tasks:</h4>
 
 📁 **0. Where am I?**
-  * File : [0-current_working_directory](./0-current_working_directory)
-  * Required : A script that prints the absolute path name of the current working directory.
-<br> 
+
+> 💾 **File :** : [0-current_working_directory](./0-current_working_directory)
+
+> 📑 **Task :** A script that prints the absolute path name of the current working directory.
  
 📁 **1. What’s in there?**
   * File : [1-listit](./1-listit)
