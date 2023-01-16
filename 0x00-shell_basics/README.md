@@ -1,10 +1,17 @@
-<h4>Project : 0x00-shell_basics</h4>
+> <h4>Project : 0x00-shell_basics</h4>
+
+<br>
 
 > <h4>Summary: </h4>
+
+<br>
 
 These are the projects that helped me understand bash scripting.
 
 > <h4>Languages Used : </h4>
+
+<br>
+
 <table>
   <tr>
     <td><img alt="medium" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"></td>
@@ -13,6 +20,9 @@ These are the projects that helped me understand bash scripting.
 </table>
 
 > <h4>Integrated Development Environment:</h4>
+
+<br>
+
 <table>
   <tr>
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
@@ -21,6 +31,7 @@ These are the projects that helped me understand bash scripting.
   
 > <h4>List of Tasks:</h4>
 
+<br>
 
 📁 **0. Where am I?**
 
