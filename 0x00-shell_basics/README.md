@@ -41,16 +41,21 @@
  
 <br>
 
-📁 **1. What’s in there?**
-  * File : [1-listit](./1-listit)
-  * Required : Display the contents list of your current directory.
+> 📁 **1. What’s in there?**
+
+> 💾 **File :** [1-listit](./1-listit)
+
+> 📑 **Task :** Display the contents list of your current directory.
+
 <br>  
  
-📁 **2. There is no place like home**
-  * File : [2-bring_me_home](./2-bring_me_home)
-  * Required : A script that changes the working directory to the user’s home directory.
+> 📁 **2. There is no place like home**
 
-> 🎵 *Lyric : "There's no place like home," the last line of the 1822 song "Home!*
+> 💾 **File :** [2-bring_me_home](./2-bring_me_home)
+
+> 📑 **Task :** A script that changes the working directory to the user’s home directory.
+
+> 🎵 **Lyric :** *"There's no place like home," the last line of the 1822 song "Home!*
    
 📁 **3. The long format**
   * File : [3-listfiles](./3-listfiles)
