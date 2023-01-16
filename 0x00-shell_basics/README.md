@@ -132,10 +132,11 @@
 > 📑 **Task :** A script that lists all files in the current directory.
 >
 > 📝 **Required :**
-        + **It lists all files in the the parent of the working directory.**
-       > - **It lists all files in the /boot directory (in this order), in long format.**
-    > - **(even ones with names beginning with a period character, which are normally hidden)** 
->
+<li>
+<ul> **It lists all files in the the parent of the working directory.** </ul>
+<ul> **It lists all files in the /boot directory (in this order), in long format.** </ul>
+<ul> **(even ones with names beginning with a period character, which are normally hidden)** </ul>
+</li>
 <br> 
  
 > 📁 **12. File type**
