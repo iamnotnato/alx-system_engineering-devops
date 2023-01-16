@@ -150,11 +150,13 @@
 <br>  
   
 > 📁 **13. We are symbols, and inhabit symbols**
+> 
 > 💾 **File :** [13-symbolic_link](./13-symbolic_link)
+> 
 > 📑 **Task :** A symbolic link to /bin/ls, named __ls__.
-  
-  
+>   
 > 💬 *Quote : "We are symbols, and inhabit symbols." - Ralph Waldo.*
+> 
 <br> 
  
 > 📁 **14. Copy HTML files**
@@ -162,8 +164,14 @@
 > 💾 **File :** [14-copy_html](./14-copy_html)
 > 
 > 📑 **Task :** A script that copies all the HTML files from the current working directory to the parent of the working directory.
-    * **Only copy files that did not exist in the parent of the working directory.**
-    * **Only copy files that were newer than the versions in the parent of the working directory.**
+
+> 📝 **Required :**
+
+| | Guides                                                                                      |
+|-| ------------------------------------------------------------------------------------------- |
+|-| Only copy files that did not exist in the parent of the working directory.                  | 
+|-| Only copy files that were newer than the versions in the parent of the working directory.   |
+
 <br>   
    
 > 📁 **15. Let’s move**
