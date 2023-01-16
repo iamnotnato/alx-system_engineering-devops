@@ -128,8 +128,12 @@ These are projects that helped me understand bash scripting.
 > 💬 *Quote : "Life is a series of commas, not periods." - Matthew McConaughey*
 <br>  
   
-* **19. File type: School**
-  * File : [school.mgc](./school.mgc)
-    * **Required : A magic file school.mgc that can be used with the command file to detect School data files.**
-    * **Expected Results : School data files always contain the string SCHOOL at offset 0.**
+📁 **19. File type: School**
 <br>
+
+> 💾 ** File :** [school.mgc](./school.mgc)
+<br>
+
+> 📑 **Task :** A magic file school.mgc that can be used with the command file to detect School data files.
+
+> 📝 **Required :** School data files always contain the string SCHOOL at offset 0.
