@@ -99,75 +99,75 @@
 
 <br> 
  
-📁 **8. Bye bye Betty**
-  * File : [8-firstdelete](./8-firstdelete)
-  * Required : Delete the file betty.
+> 📁 **8. Bye bye Betty**
+> 💾 **File :** [8-firstdelete](./8-firstdelete)
+> 📑 **Task :** Delete the file betty.
 <br>    
     
-📁 **9. Bye bye My first directory**
-  * File : [9-firstdirdeletion](./9-firstdirdeletion)
-  * Required : Delete the directory my_first_directory that is in the /tmp directory.
+**9. Bye bye My first directory**
+> 💾 **File :** [9-firstdirdeletion](./9-firstdirdeletion)
+> 📑 **Task :** Delete the directory my_first_directory that is in the /tmp directory.
 <br> 
  
-📁 **10. Back to the future**
-  * File : [10-back](./10-back)
-  * Required : A script that changes the working directory to the previous one.
+> 📁 **10. Back to the future**
+> 💾 **File :**[10-back](./10-back)
+> 📑 **Task :** A script that changes the working directory to the previous one.
 
 > 💡*Fun Fact : "Back to the Future is a 1985 American science fiction film directed by Robert Zemeckis, and written by Zemeckis and Bob Gale."*
  
-📁 **11. Lists**
-  * File : [11-lists](./11-lists)
-  * Required : 
+> 📁 **11. Lists**
+> 💾 **File :** [11-lists](./11-lists)
+> 📑 **Task :** 
     * **A script that lists all files in the current directory.**
     * **It lists all files in the the parent of the working directory.**
     * **It lists all files in the /boot directory (in this order), in long format.**
     * **(even ones with names beginning with a period character, which are normally hidden)** 
 <br> 
  
-📁 **12. File type**
-  * File : [12-file_type](./12-file_type)
-  * Required : A script that prints the type of the file named iamafile.
+> 📁 **12. File type**
+> 💾 **File :** [12-file_type](./12-file_type)
+> 📑 **Task :** A script that prints the type of the file named iamafile.
 <br>  
   
-📁 **13. We are symbols, and inhabit symbols**
-  * File : [13-symbolic_link](./13-symbolic_link)
-  * Required : A symbolic link to /bin/ls, named __ls__.
+> 📁 **13. We are symbols, and inhabit symbols**
+> 💾 **File :** [13-symbolic_link](./13-symbolic_link)
+> 📑 **Task :** A symbolic link to /bin/ls, named __ls__.
   
   
 > 💬 *Quote : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 <br> 
  
-📁 **14. Copy HTML files**
-  * File : [14-copy_html](./14-copy_html)
-  * Required :
+> 📁 **14. Copy HTML files**
+> 💾 **File :** [14-copy_html](./14-copy_html)
+> 📑 **Task :**
     * **A script that copies all the HTML files from the current working directory to the parent of the working directory.**
     * **Only copy files that did not exist in the parent of the working directory.**
     * **Only copy files that were newer than the versions in the parent of the working directory.**
 <br>   
    
-📁 **15. Let’s move**
-  * File : [100-lets_move](./100-lets_move)
-  * Required : A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+> 📁 **15. Let’s move**
+> 💾 **File :** [100-lets_move](./100-lets_move)
+> 📑 **Task :**: A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 <br> 
  
-📁 **16. Clean Emacs**
-  * File : [101-clean_emacs](./101-clean_emacs)
-  * Required : A script that deletes all files in the current working directory that end with the character ~.
+> 📁 **16. Clean Emacs**
+> 💾 **File :** [101-clean_emacs](./101-clean_emacs)
+> 📑 **Task :**: A script that deletes all files in the current working directory that end with the character ~.
 <br>  
   
-📁 **17. Tree**
-  * File : [102-tree](./102-tree)
-  * Required : A script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+> 📁 **17. Tree**
+> 💾 **File :** [102-tree](./102-tree)
+> 📑 **Task :** A script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 <br> 
  
-📁 **18. Life is a series of commas, not periods**
-  * File : [103-commas](./103-commas)
-  * Required : A command that lists all the files and directories of the current directory, separated by commas (,).
+> 📁 **18. Life is a series of commas, not periods**
+> 💾 **File :** [103-commas](./103-commas)
+> 📑 **Task :** A command that lists all the files and directories of the current directory, separated by commas (,).
   
 > 💬 *Quote : "Life is a series of commas, not periods." - Matthew McConaughey*
 <br>  
   
-📁 **19. File type: School**
+> 📁 **19. File type: School**
 
 > 💾 **File :** [school.mgc](./school.mgc)
 
