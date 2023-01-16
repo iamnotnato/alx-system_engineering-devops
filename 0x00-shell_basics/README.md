@@ -4,13 +4,10 @@
 
 > <h4>Summary: </h4>
 
-<br>
-
 These are the projects that helped me understand bash scripting.
+<br>
 
 > <h4>Languages Used : </h4>
-
-<br>
 
 <table>
   <tr>
@@ -19,16 +16,18 @@ These are the projects that helped me understand bash scripting.
   </tr>
 </table>
 
-> <h4>Integrated Development Environment:</h4>
-
 <br>
+
+> <h4>Integrated Development Environment:</h4>
 
 <table>
   <tr>
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
   </tr>
 </table>
-  
+
+<br>
+
 > <h4>List of Tasks:</h4>
 
 <br>
