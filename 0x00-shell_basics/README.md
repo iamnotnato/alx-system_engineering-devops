@@ -35,7 +35,7 @@
 
 > 📁 **0. Where am I?**
 
-> 💾 **File :** : [0-current_working_directory](./0-current_working_directory)
+> 💾 **File :** [0-current_working_directory](./0-current_working_directory)
 
 > 📑 **Task :** A script that prints the absolute path name of the current working directory.
  
