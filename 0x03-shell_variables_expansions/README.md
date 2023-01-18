@@ -1,14 +1,14 @@
-> <h4>Project : 0x03-shell_variables_expansions</h4>
+> 🚧 **Project :** 0x03-shell_variables_expansions
 
 <br>
 
-> <h4>Summary: </h4>
+> 📝 **Summary:**
 
 > These are projects that helped me understand bash scripting.
 
 <br>
 
-> <h4>Languages Used</h4>
+> ⌨️ **Languages Used :**
 
 <table>
   <tr>
@@ -19,7 +19,7 @@
 
 <br>
 
-> <h4>Integrated Development Environment:</h4>
+> 🖥️ **Integrated Development Environment:**
 
 <table>
   <tr>
@@ -29,7 +29,7 @@
 
 <br>
 
-> <h4>List of Tasks:</h4>
+> ✒️ **List of Tasks:**
 
 <br>
 
