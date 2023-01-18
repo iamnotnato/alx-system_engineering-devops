@@ -42,35 +42,56 @@
 <br> 
  
 > 📁 **1. Hello you**
+>
 > 💾 **File :** [1-hello_you](./1-hello_you)
+>
 > 📑 **Task : A script that prints hello user, where user is the current Linux user.
+>
 <br>  
  
 > 📁 **2. The path to success is to take massive, determined action**
+>
 > 💾 **File :** [2-path](./2-path)
+>
 > 📑 **Task : Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
-
+>
 > 💬 *Quote : The path to success is to take massive, determined action. - Tony Robbins* 
-   
-> 📁 **3. If the path be beautiful, let us not ask where it leads**
-> 💾 **File :** [3-paths](./3-paths)
-> 📑 **Task : A script that counts the number of directories in the PATH.
+>
+<br>
 
+> 📁 **3. If the path be beautiful, let us not ask where it leads**
+>
+> 💾 **File :** [3-paths](./3-paths)
+>
+> 📑 **Task : A script that counts the number of directories in the PATH.
+>
 > 💬 *Quote : Anatole France — 'If the path be beautiful, let us not ask where it leads.'* 
+>
+  
+<br>
  
 > 📁 **4. Global variables**
+>
 > 💾 **File :** [4-global_variables](./4-global_variables)
+>
 > 📑 **Task : A script that lists environment variables.
+>
 <br>   
    
 > 📁 **5. Local variables**
+>
 > 💾 **File :** [5-local_variables](./5-local_variables)
+>
 > 📑 **Task :: A script that lists all local variables and environment variables, and functions.
+>
 <br> 
  
 > 📁 **6. Local variable**
+>
 > 💾 **File :** [6-create_local_variable](./6-create_local_variable)
+>
 > 📑 **Task : A script that creates a new local variable.
+>
 <br>   
    
 > 📁 **7. Global variable**
