@@ -1,5 +1,7 @@
 > <h4>Project : 0x01-shell_permissions</h4>
 
+<br>
+
 ><h4>Summary: </h4>
 
 >These are projects that helped me understand bash scripting.
@@ -15,7 +17,12 @@
   </tr>
 </table>
 
-<h4>Integrated Development Environment:</h4>
+<br>
+
+> <h4>Integrated Development Environment:</h4>
+
+<br>
+
 <table>
   <tr>
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
