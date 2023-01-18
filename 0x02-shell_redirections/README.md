@@ -1,8 +1,15 @@
-<h4>Project : 0x02-shell_redirections</h4>
-<h4>Summary: </h4>
-These are projects that helped me understand bash scripting.
+> 🚧 **Project :** 0x02-shell_redirections
 
-<h4>Languages Used</h4>
+<br>
+
+> 📝 **Summary:**
+
+> These are projects that helped me understand bash scripting.
+
+<br>
+
+> ⌨️ **Languages Used :**
+
 <table>
   <tr>
     <td><img alt="medium" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"></td>
@@ -10,14 +17,17 @@ These are projects that helped me understand bash scripting.
   </tr>
 </table>
 
-<h4>Integrated Development Environment:</h4>
+<br>
+
+> 🖥️ **Integrated Development Environment:**
+
 <table>
   <tr>
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
   </tr>
 </table>
   
-  <h4>List of Tasks:</h4>
+> ✒️ **List of Tasks:**
 
 * **0. Hello World**
   * File : [0-hello_world](./0-hello_world)
