@@ -1,5 +1,7 @@
 > <h4>Project : alx-system_engineering-devops</h4>
 
+<br>
+
 <div>
   <a href="https://github.com/iamnotnato/alx-system_engineering-devops">
     <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/images/logo.png" alt="Logo" width="100" height="100">
@@ -22,6 +24,8 @@
     <td><img alt="medium" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"></td>
   </tr>
 </table>
+
+<br>
 
 > <h4>Integrated Development Environment:</h4>
 <table>
