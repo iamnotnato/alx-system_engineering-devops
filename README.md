@@ -29,10 +29,10 @@ These are projects that helped me understand bash scripting.
 
 | | Projects Guide:                                                                     |
 |-| ----------------------------------------------------------------------------------- |
-|-| * [0x00 - (hex) number  Decimal Equivalent 00 - Shell Basics](./0x00-shell_basics)                   | 
-|-| * [0x01 - (hex) number  Decimal Equivalent 01 - Shell Permissions](./0x01-shell_permissions)                    | 
-|-| * [0x02 - (hex) number  Decimal Equivalent 02 - Shell Redirections](./0x02-shell_redirections)                    | 
-|-| * [0x03 - (hex) number  Decimal Equivalent 03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)               | 
+|-| [0x00 - (hex) number  Decimal Equivalent 00 - Shell Basics](./0x00-shell_basics)                   | 
+|-| [0x01 - (hex) number  Decimal Equivalent 01 - Shell Permissions](./0x01-shell_permissions)                    | 
+|-| [0x02 - (hex) number  Decimal Equivalent 02 - Shell Redirections](./0x02-shell_redirections)                    | 
+|-| [0x03 - (hex) number  Decimal Equivalent 03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)               | 
 
 
 * [0x01 - (hex) number | Decimal Equivalent 01 - Shell Permissions](./0x01-shell_permissions)
