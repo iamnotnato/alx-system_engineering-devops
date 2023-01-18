@@ -1,13 +1,19 @@
+> <h4>Project : alx-system_engineering-devops</h4>
+
 <div>
-  <h4>Project : alx-system_engineering-devops</h4>
   <a href="https://github.com/iamnotnato/alx-system_engineering-devops">
     <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/images/logo.png" alt="Logo" width="100" height="100">
   </a>
 </div>
-<h4>Summary: </h4>
-These are projects that helped me understand bash scripting.
 
-<h4>Languages Used</h4>
+> <h4>Summary: </h4>
+
+> These are projects that helped me understand bash scripting.
+
+<br>
+
+> <h4>Languages Used</h4>
+
 <table>
   <tr>
     <td><img alt="medium" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"></td>
@@ -15,7 +21,7 @@ These are projects that helped me understand bash scripting.
   </tr>
 </table>
 
-<h4>Integrated Development Environment:</h4>
+> <h4>Integrated Development Environment:</h4>
 <table>
   <tr>
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
