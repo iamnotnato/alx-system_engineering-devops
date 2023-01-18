@@ -26,7 +26,9 @@
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
   </tr>
 </table>
-  
+
+<br>
+
 > ✒️ **List of Tasks:**
 
 * **0. Hello World**
