@@ -21,15 +21,15 @@
 
 > <h4>Integrated Development Environment:</h4>
 
-<br>
-
 <table>
   <tr>
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
   </tr>
 </table>
-  
-  <h4>List of Tasks:</h4>
+
+<br> 
+
+> <h4>List of Tasks:</h4>
 
 * **0. My name is Betty**
   * File : [0-iam_betty](./0-iam_betty)
