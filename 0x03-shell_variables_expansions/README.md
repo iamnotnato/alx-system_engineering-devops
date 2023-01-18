@@ -6,6 +6,8 @@
 
 > These are projects that helped me understand bash scripting.
 
+<br>
+
 > <h4>Languages Used</h4>
 
 <table>
