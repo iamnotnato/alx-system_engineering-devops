@@ -1,14 +1,14 @@
-> 🚧 <h4>Project : 0x00-shell_basics</h4>
+> 🚧 **Project : 0x00-shell_basics**
 
 <br>
 
-> 📝 <h4>Summary: </h4>
+> 📝 **Summary:**
 
 >These are the projects that helped me understand bash scripting.
 
 <br>
 
-> ⌨️ <h4>Languages Used : </h4>
+> ⌨️ **Languages Used : **
 
 <table>
   <tr>
@@ -19,7 +19,7 @@
 
 <br>
 
-> 🖥️ <h4>Integrated Development Environment:</h4>
+> 🖥️ **Integrated Development Environment:**
 
 <table>
   <tr>
