@@ -1,8 +1,13 @@
-<h4>Project : 0x03-shell_variables_expansions</h4>
-<h4>Summary: </h4>
-These are projects that helped me understand bash scripting.
+> <h4>Project : 0x03-shell_variables_expansions</h4>
 
-<h4>Languages Used</h4>
+<br>
+
+> <h4>Summary: </h4>
+
+> These are projects that helped me understand bash scripting.
+
+> <h4>Languages Used</h4>
+
 <table>
   <tr>
     <td><img alt="medium" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"></td>
@@ -10,18 +15,28 @@ These are projects that helped me understand bash scripting.
   </tr>
 </table>
 
-<h4>Integrated Development Environment:</h4>
+<br>
+
+> <h4>Integrated Development Environment:</h4>
+
 <table>
   <tr>
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
   </tr>
 </table>
-  
-  <h4>List of Tasks:</h4>
 
-* **0. <o>**
-  * File : [0-alias](./0-alias)
-  * Required : A script that creates an alias.
+<br>
+
+> <h4>List of Tasks:</h4>
+
+<br>
+
+> 📁 **0. <o>**
+>
+> 💾 **File :** [0-alias](./0-alias)
+>
+> 📑 **Task :** A script that creates an alias.
+>
 <br> 
  
 * **1. Hello you**
