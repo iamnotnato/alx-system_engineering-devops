@@ -124,46 +124,68 @@
 <br>
 
 > 📁 **10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath**
+>
 > 💾 **File :** [10-love_exponent_breath](./10-love_exponent_breath)
+>
 > 📑 **Task :** A script that displays the result of BREATH to the power LOVE
-
+>
 > 💬 *Quote : Love is anterior to life, posterior to death, initial of creation, and the exponent of breath. - Emily Dickinson* 
- 
-> 📁 **11. There are 10 types of people in the world -- Those who understand binary, and those who don't**
-> 💾 **File :** [11-binary_to_decimal](./11-binary_to_decimal)
-> 📑 **Task :** A script that converts a number from base 2 to base 10.
+>
+<br>
 
+> 📁 **11. There are 10 types of people in the world -- Those who understand binary, and those who don't**
+>
+> 💾 **File :** [11-binary_to_decimal](./11-binary_to_decimal)
+>
+> 📑 **Task :** A script that converts a number from base 2 to base 10.
+>
 > 😂 *Joke : “There are only 10 types of people in the world: those who understand binary and those who don’t.” — Unknown.* 
- 
+>
+<br>
+
 > 📁 **12. Combination**
+>
 > 💾 **File :** [12-combinations](./12-combinations)
+>
 > 📑 **Task :** A script that prints all possible combinations of two letters, except oo.
 <br>  
   
 > 📁 **13. Floats**
+>
 > 💾 **File :** [13-print_float](./13-print_float)
+>
 > 📑 **Task :** A script that prints a number with two decimal places, followed by a new line.
 <br> 
  
 > 📁 **14. Decimal to Hexadecimal**
+>
 > 💾 **File :** [100-decimal_to_hexadecimal](./100-decimal_to_hexadecimal)
+>
 > 📑 **Task :** A script that converts a number from base 10 to base 16.
 <br>   
    
 > 📁 **15. Everyone is a proponent of strong encryption**
+>
 > 💾 **File :** [101-rot13](./101-rot13)
+>
 > 📑 **Task :** A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
-
+>
 > 💬 *Quote : Everyone is a proponent of strong encryption. - Dorothy Denning* 
+<br>
  
 > 📁 **16. The eggs of the brood need to be an odd number**
+>
 > 💾 **File :** [102-odd](./102-odd)
+>
 > 📑 **Task :** A script that prints every other line from the input, starting with the first line.
+>
+> 🦉 *Proverb : The eggs of the brood need to be an odd number. Sicilian Proverbs*
+<br>
 
-> 🦉 *Proverb : The eggs of the brood need to be an odd number. Sicilian Proverbs* 
-  
 > 📁 **17. I'm an instant star. Just add water and stir.**
+>
 > 💾 **File :** [103-water_and_stir](./103-water_and_stir)
+>
 > 📑 **Task :** A shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
-
+>
 > 💬 *Quote : "I'm an instant star. Just add water and stir." - David Bowie* 
