@@ -95,24 +95,34 @@
 <br>   
    
 > 📁 **7. Global variable**
+>
 > 💾 **File :** [7-create_global_variable](./7-create_global_variable)
+>
 > 📑 **Task :** A script that creates a new global variable.
+>
 <br> 
  
 > 📁 **8. Every addition to true knowledge is an addition to human power**
+>
 > 💾 **File :** [8-true_knowledge](./8-true_knowledge)
+>
 > 📑 **Task :** A script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+>
+> 💬 *Quote : Every addition to true knowledge is an addition to human power.“ - Horace Mann.*
+>
+<br>
 
-> 💬 *Quote : Every addition to true knowledge is an addition to human power.“ - Horace Mann.* 
-    
 > 📁 **9. Divide and rule**
+>
 > 💾 **File :** [9-divide_and_rule](./9-divide_and_rule)
+>
 > 📑 **Task :** A script that prints the result of POWER divided by DIVIDE, followed by a new line.
-
+>
 > 💡*Fun Fact : Divide and rule policy, or divide and conquer, in politics and sociology is gaining and maintaining power divisively.*
 >
 > *Historically, this strategy was used in many different ways by empires seeking to expand their territories.* 
- 
+<br>
+
 > 📁 **10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath**
 > 💾 **File :** [10-love_exponent_breath](./10-love_exponent_breath)
 > 📑 **Task :** A script that displays the result of BREATH to the power LOVE
