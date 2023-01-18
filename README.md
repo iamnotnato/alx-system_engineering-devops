@@ -1,4 +1,4 @@
-> <h4>Project : alx-system_engineering-devops</h4>
+> 🚧 **Project :** alx-system_engineering-devops
 
 <br>
 
@@ -10,13 +10,13 @@
 
 <br>
 
-> <h4>Summary: </h4>
+> 📝 **Summary:**
 
 > These are projects that helped me understand bash scripting.
 
 <br>
 
-> <h4>Languages Used</h4>
+> ⌨️ **Languages Used :**
 
 <table>
   <tr>
@@ -27,7 +27,8 @@
 
 <br>
 
-> <h4>Integrated Development Environment:</h4>
+> 🖥️ **Integrated Development Environment:**
+
 <table>
   <tr>
 <td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
