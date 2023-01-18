@@ -1,7 +1,5 @@
 > 🚧 <h4>Project : 0x00-shell_basics</h4>
 
-<br>
-
 > 📝 <h4>Summary: </h4>
 
 >These are the projects that helped me understand bash scripting.
