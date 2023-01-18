@@ -8,7 +8,7 @@
 
 <br>
 
-> ⌨️ **Languages Used : **
+> ⌨️ **Languages Used :**
 
 <table>
   <tr>
