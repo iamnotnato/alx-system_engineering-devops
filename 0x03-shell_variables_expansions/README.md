@@ -116,10 +116,10 @@
 > ✔️ Sample test cases :
 
 ```
-$ export TRUEKNOWLEDGE=1209
-$ ./8-true_knowledge | cat -e
+:~$ export TRUEKNOWLEDGE=1209
+:~$ ./8-true_knowledge | cat -e
 1337$
-$
+:~$
 ```
 <br>
 
@@ -139,11 +139,11 @@ $
 > ✔️ Sample test cases :
 
 ```
-$ export POWER=42784
-$ export DIVIDE=32
-$ ./9-divide_and_rule | cat -e
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
 1337$
-$
+:~$
 ```
 <br>
 
@@ -155,6 +155,19 @@ $
 >
 > 💬 *Quote : Love is anterior to life, posterior to death, initial of creation, and the exponent of breath. - Emily Dickinson* 
 >
+
+<br>
+
+> ✔️ Sample test cases :
+
+```
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
+1337$
+:~$
+```
+<br>
 <br>
 
 > 📁 **11. There are 10 types of people in the world -- Those who understand binary, and those who don't**
@@ -165,6 +178,20 @@ $
 >
 > 😂 *Joke : “There are only 10 types of people in the world: those who understand binary and those who don’t.” — Unknown.* 
 >
+>
+
+<br>
+
+> ✔️ Sample test cases :
+
+```
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
+1337$
+:~$
+```
+<br>
 <br>
 
 > 📁 **12. Combination**
@@ -172,6 +199,22 @@ $
 > 💾 **File :** [12-combinations](./12-combinations)
 >
 > 📑 **Task :** A script that prints all possible combinations of two letters, except oo.
+>
+  
+>
+
+<br>
+
+> ✔️ Sample test cases :
+
+```
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
+1337$
+:~$
+```
+<br>
 <br>  
   
 > 📁 **13. Floats**
@@ -179,6 +222,21 @@ $
 > 💾 **File :** [13-print_float](./13-print_float)
 >
 > 📑 **Task :** A script that prints a number with two decimal places, followed by a new line.
+>
+>
+
+<br>
+
+> ✔️ Sample test cases :
+
+```
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
+1337$
+:~$
+```
+<br>
 <br> 
  
 > 📁 **14. Decimal to Hexadecimal**
@@ -186,6 +244,22 @@ $
 > 💾 **File :** [100-decimal_to_hexadecimal](./100-decimal_to_hexadecimal)
 >
 > 📑 **Task :** A script that converts a number from base 10 to base 16.
+>
+  
+>
+
+<br>
+
+> ✔️ Sample test cases :
+
+```
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
+1337$
+:~$
+```
+<br>
 <br>   
    
 > 📁 **15. Everyone is a proponent of strong encryption**
@@ -195,6 +269,21 @@ $
 > 📑 **Task :** A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 >
 > 💬 *Quote : Everyone is a proponent of strong encryption. - Dorothy Denning* 
+>
+  >
+
+<br>
+
+> ✔️ Sample test cases :
+
+```
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
+1337$
+:~$
+```
+<br>
 <br>
  
 > 📁 **16. The eggs of the brood need to be an odd number**
@@ -204,6 +293,22 @@ $
 > 📑 **Task :** A script that prints every other line from the input, starting with the first line.
 >
 > 🦉 *Proverb : The eggs of the brood need to be an odd number. Sicilian Proverbs*
+>
+  
+>
+
+<br>
+
+> ✔️ Sample test cases :
+
+```
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
+1337$
+:~$
+```
+<br>
 <br>
 
 > 📁 **17. I'm an instant star. Just add water and stir.**
@@ -212,4 +317,19 @@ $
 >
 > 📑 **Task :** A shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 >
-> 💬 *Quote : "I'm an instant star. Just add water and stir." - David Bowie* 
+> 💬 *Quote : "I'm an instant star. Just add water and stir." - David Bowie*
+>
+>
+
+<br>
+
+> ✔️ Sample test cases :
+
+```
+:~$ export POWER=42784
+:~$ export DIVIDE=32
+:~$ ./9-divide_and_rule | cat -e
+1337$
+:~$
+```
+<br>
