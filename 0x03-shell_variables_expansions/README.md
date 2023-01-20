@@ -110,6 +110,9 @@
 >
 > 💬 *Quote : Every addition to true knowledge is an addition to human power.“ - Horace Mann.*
 >
+
+<br>
+
 > ✔️ Sample test cases :
 
 ```
@@ -130,6 +133,9 @@ $
 >
 > *Historically, this strategy was used in many different ways by empires seeking to expand their territories.* 
 >
+
+<br>
+
 > ✔️ Sample test cases :
 
 ```
