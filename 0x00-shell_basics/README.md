@@ -55,12 +55,14 @@
 >
 > 📑 **Task :** A script that changes the working directory to the user’s home directory.
 >
-> 📝 **Required :** 
->
-> * **You are not allowed to use any shell variables**
->
 > 🎵 **Lyric :** *"There's no place like home," the last line of the 1822 song "Home!*
 >
+> 📝 **Required :** 
+
+| | Guides                                            |
+|-| ------------------------------------------------- |
+|-| You are not allowed to use any shell variables    | 
+
 <br>
    
 > 📁 **3. The long format**
@@ -169,7 +171,12 @@
 > 
 > 📝 **Required :** 
 >
-> * **The symbolic link should be created in the current working directory.**
+> 📝 **Required :** 
+
+| | Guides                                                                  |
+|-| ----------------------------------------------------------------------- |
+|-| The symbolic link should be created in the current working directory.   | 
+
 > 
 > 💬 *Quote : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 > 
@@ -198,9 +205,12 @@
 > 📑 **Task :**: A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 > 
 > 📝 **Required :** 
->
-> * **You can assume that the directory /tmp/u will exist when we will run your script**
->
+
+| | Guides                                                                                      |
+|-| ------------------------------------------------------------------------------------------- |
+|-| *You can assume that the directory /tmp/u will exist when we will run your script           | 
+
+
 <br> 
  
 > 📁 **16. Clean Emacs**
@@ -218,9 +228,11 @@
 > 📑 **Task :** A script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 >
 > 📝 **Required :** 
->
-> * **You are only allowed to use two spaces (and lines) in your script, not more.**
->
+
+| | Guides                                                                             |
+|-| ---------------------------------------------------------------------------------- |
+|-| You are only allowed to use two spaces (and lines) in your script, not more        | 
+
 <br> 
  
 > 📁 **18. Life is a series of commas, not periods**
@@ -251,4 +263,8 @@
 > 
 > 📑 **Task :** A magic file school.mgc that can be used with the command file to detect School data files.
 > 
-> 📝 **Required :** School data files always contain the string SCHOOL at offset 0.
+> 📝 **Required :** 
+
+| | Guides                                                               |
+|-| -------------------------------------------------------------------- |
+|-| School data files always contain the string SCHOOL at offset 0.      |
