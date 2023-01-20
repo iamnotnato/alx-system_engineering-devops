@@ -55,6 +55,10 @@
 >
 > 📑 **Task :** A script that changes the working directory to the user’s home directory.
 >
+> 📝 **Required :** 
+>
+> You are not allowed to use any shell variables
+>
 > 🎵 **Lyric :** *"There's no place like home," the last line of the 1822 song "Home!*
 >
 <br>
