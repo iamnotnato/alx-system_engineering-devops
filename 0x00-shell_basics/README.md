@@ -84,7 +84,15 @@
 > 💾 **File :** [5-listfilesdigitonly](./5-listfilesdigitonly)
 >
 > 📑 **Task :** Display current directory contents.
->
+> 
+> 📝 **Required :** 
+
+| | Guides                                            |
+|-| ------------------------------------------------- |
+|-| Long format                                       | 
+|-| with user and group IDs displayed numerically     |
+|-| And hidden files (starting with .)                |
+
 <br> 
  
 > 📁 **6. Welcome**
@@ -158,7 +166,11 @@
 > 💾 **File :** [13-symbolic_link](./13-symbolic_link)
 > 
 > 📑 **Task :** A symbolic link to /bin/ls, named __ls__.
->   
+> 
+> 📝 **Required :** 
+>
+> * **The symbolic link should be created in the current working directory.**
+> 
 > 💬 *Quote : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 > 
 <br> 
@@ -175,6 +187,7 @@
 |-| ------------------------------------------------------------------------------------------- |
 |-| Only copy files that did not exist in the parent of the working directory.                  | 
 |-| Only copy files that were newer than the versions in the parent of the working directory.   |
+|-| You can consider that all HTML files have the extension .html.                              |
 
 <br>   
    
@@ -184,6 +197,10 @@
 > 
 > 📑 **Task :**: A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 > 
+> 📝 **Required :** 
+>
+> * **You can assume that the directory /tmp/u will exist when we will run your script**
+>
 <br> 
  
 > 📁 **16. Clean Emacs**
@@ -199,7 +216,11 @@
 > 💾 **File :** [102-tree](./102-tree)
 > 
 > 📑 **Task :** A script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
-> 
+>
+> 📝 **Required :** 
+>
+> * **You are only allowed to use two spaces (and lines) in your script, not more.**
+>
 <br> 
  
 > 📁 **18. Life is a series of commas, not periods**
@@ -209,7 +230,19 @@
 > 📑 **Task :** A command that lists all the files and directories of the current directory, separated by commas (,).
 >   
 > 💬 *Quote : "Life is a series of commas, not periods." - Matthew McConaughey*
-> 
+>
+> 📝 **Required :**
+
+| | Guides                                                                                                          |
+|-| --------------------------------------------------------------------------------------------------------------- |
+|-| Directory names should end with a slash (/)                                                                     | 
+|-| Files and directories starting with a dot (.) should be listed                                                  |
+|-| The listing should be alpha ordered, except for the directories . which should be listed at the very beginning  |
+|-| The listing should be alpha ordered, except for the directories .. which should be listed at the very beginning |
+|-| Only digits and letters are used to sort; Digits should come first                                              | 
+|-| You can assume that all the files we will test with will have at least one letter or one digit                  |
+|-| The listing should end with a new line                                                                          |
+
 <br>  
   
 > 📁 **19. File type: School**
