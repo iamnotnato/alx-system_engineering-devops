@@ -100,9 +100,11 @@
 > 📑 **Task :** A script that adds execution permission to the owner, the group owner and the other users, to the file hello
 >
 > 📝 **Required :** 
->
-> * **You are not allowed to use commas for this script.**
-> 
+
+| | Guides                                              |
+|-| --------------------------------------------------- |
+|-| You are not allowed to use commas for this script.  |
+ 
 <br> 
  
 > 📁 **8. James Bond**
@@ -132,9 +134,11 @@
 > 📑 **Task :** A script that sets the mode of the file to -rwxr-x-wx.
 >
 > 📝 **Required :** 
->
-> * **You are not allowed to use commas for this script.**
-> 
+
+| | Guides                                              |
+|-| --------------------------------------------------- |
+|-| You are not allowed to use commas for this script.  |
+ 
 > 💡*Fun Fact : John Doe and Jane Doe are multiple-use placeholder names that are used when the true name of a person is unknown or is being intentionally concealed.*
 >  
 > *In the context of law enforcement in the United States, such names are often used to refer to a corpse whose identity is unknown or unconfirmed.*
@@ -162,9 +166,11 @@
 > 📑 **Task :** A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 >
 > 📝 **Required :** 
->
-> * **Regular files should not be changed.**
-> 
+
+| | Guides                               |
+|-| ------------------------------------ |
+|-| Regular files should not be changed. |
+
 <br> 
  
 > 📁 **12. More directories**
