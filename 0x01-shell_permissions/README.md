@@ -36,7 +36,14 @@
 > 💾 **File :** [0-iam_betty](./0-iam_betty)
 > 
 > 📑 **Task :** A script that switches the current user to the user betty.
-> 
+>
+> 📝 **Required :** 
+
+| | Guides                                                                                   |
+|-| ---------------------------------------------------------------------------------------- |
+|-| You should use exactly 8 characters for your command (+1 character for the new line)     | 
+|-| You can assume that the user betty will exist when we will run your script               |
+
 <br> 
  
 > 📁 **1. Who am I**
@@ -92,6 +99,10 @@
 > 
 > 📑 **Task :** A script that adds execution permission to the owner, the group owner and the other users, to the file hello
 >
+> 📝 **Required :** 
+>
+> * **You are not allowed to use commas for this script.**
+> 
 <br> 
  
 > 📁 **8. James Bond**
@@ -103,14 +114,26 @@
 > 💡*Fun Fact : James Bond is a fictional character created by British novelist Ian Fleming in 1953.* 
 > 
 > *A British secret agent working for MI6 under the codename 007, Bond has been portrayed on film in twenty-seven productions by actors*
-> 
-<br>
+>
+> 📝 **Required :** 
+
+| | Guides                                |
+|-| ------------------------------------- |
+|-| Owner: no permission at all           | 
+|-| Group: no permission at all           |
+|-| Other users: all the permissions      |
+
+<br> 
 
 > 📁 **9. John Doe**
 > 
 > 💾 **File :** [9-John_Doe](./9-John_Doe)
 > 
 > 📑 **Task :** A script that sets the mode of the file to -rwxr-x-wx.
+>
+> 📝 **Required :** 
+>
+> * **You are not allowed to use commas for this script.**
 > 
 > 💡*Fun Fact : John Doe and Jane Doe are multiple-use placeholder names that are used when the true name of a person is unknown or is being intentionally concealed.*
 >  
@@ -125,6 +148,10 @@
 > 📑 **Task :** A script that sets the mode of the file hello the same as olleh’s mode.
 > 
 > ✍️ *Idiom : To consider, realize, or admit one's own failing or culpability in relation to some issue.*
+>
+> 📝 **Note :** 
+>
+> * **the mode of olleh will not always be 664. Make sure your script works for any mode.**
 > 
 <br> 
  
@@ -133,6 +160,10 @@
 > 💾 **File :**: [11-directories_permissions](./11-directories_permissions)
 > 
 > 📑 **Task :** A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+>
+> 📝 **Required :** 
+>
+> * **Regular files should not be changed.**
 > 
 <br> 
  
