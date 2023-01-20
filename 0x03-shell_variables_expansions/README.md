@@ -110,6 +110,14 @@
 >
 > 💬 *Quote : Every addition to true knowledge is an addition to human power.“ - Horace Mann.*
 >
+> ✔️ Sample test cases :
+
+```
+$ export TRUEKNOWLEDGE=1209
+$ ./8-true_knowledge | cat -e
+1337$
+$
+```
 <br>
 
 > 📁 **9. Divide and rule**
@@ -121,6 +129,16 @@
 > 💡*Fun Fact : Divide and rule policy, or divide and conquer, in politics and sociology is gaining and maintaining power divisively.*
 >
 > *Historically, this strategy was used in many different ways by empires seeking to expand their territories.* 
+>
+> ✔️ Sample test cases :
+
+```
+$ export POWER=42784
+$ export DIVIDE=32
+$ ./9-divide_and_rule | cat -e
+1337$
+$
+```
 <br>
 
 > 📁 **10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath**
