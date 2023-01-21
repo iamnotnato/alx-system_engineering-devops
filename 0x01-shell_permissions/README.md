@@ -41,6 +41,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                                                                   |
 |-| ---------------------------------------------------------------------------------------- |
 |-| You should use exactly 8 characters for your command (+1 character for the new line)     | 
@@ -104,6 +106,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                              |
 |-| --------------------------------------------------- |
 |-| You are not allowed to use commas for this script.  |
@@ -121,6 +125,8 @@
 > *A British secret agent working for MI6 under the codename 007, Bond has been portrayed on film in twenty-seven productions by actors*
 >
 > 📝 **Required :** 
+
+<br>
 
 | | Guides                                |
 |-| ------------------------------------- |
@@ -142,6 +148,8 @@
 > 
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                              |
 |-| --------------------------------------------------- |
 |-| You are not allowed to use commas for this script.  |
@@ -158,6 +166,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                                                              |
 |-| ----------------------------------------------------------------------------------- |
 |-| the mode of olleh will not always be 664. Make sure your script works for any mode. |
@@ -171,6 +181,8 @@
 > 📑 **Task :** A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 >
 > 📝 **Required :** 
+
+<br>
 
 | | Guides                               |
 |-| ------------------------------------ |
