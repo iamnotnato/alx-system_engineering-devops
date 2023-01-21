@@ -84,8 +84,7 @@
 > 💾 **File :** [6-third_line](./6-third_line)
 > 
 > 📑 **Task :** A script that displays the third line of the file iacta.
-> 
-
+>
 > 📝 **Required :**
 
 | | Guides                                            |
@@ -254,6 +253,7 @@
 > 📑 **Task :** A script that reverse its input.
 >   
 > 💡*Fun Fact : Esrever is simply the word REVERSE in reverse.*
+>
 <br>
 
 > 📁 **22. DJ Cut Killer**
