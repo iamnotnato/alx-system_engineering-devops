@@ -91,6 +91,7 @@
 > 💾 **File :** [6-multiple_permissions](./6-multiple_permissions)
 > 
 > 📑 **Task :** A script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+>
 <br>   
    
 > 📁 **7. Everybody!**
@@ -133,16 +134,16 @@
 > 
 > 📑 **Task :** A script that sets the mode of the file to -rwxr-x-wx.
 >
+> 💡*Fun Fact : John Doe and Jane Doe are multiple-use placeholder names that are used when the true name of a person is unknown or is being intentionally concealed.*
+>  
+> *In the context of law enforcement in the United States, such names are often used to refer to a corpse whose identity is unknown or unconfirmed.*
+> 
 > 📝 **Required :** 
 
 | | Guides                                              |
 |-| --------------------------------------------------- |
 |-| You are not allowed to use commas for this script.  |
  
-> 💡*Fun Fact : John Doe and Jane Doe are multiple-use placeholder names that are used when the true name of a person is unknown or is being intentionally concealed.*
->  
-> *In the context of law enforcement in the United States, such names are often used to refer to a corpse whose identity is unknown or unconfirmed.*
-> 
 <br> 
  
 > 📁 **10. Look in the mirror**
@@ -153,10 +154,12 @@
 > 
 > ✍️ *Idiom : To consider, realize, or admit one's own failing or culpability in relation to some issue.*
 >
-> 📝 **Note :** 
->
-> * **the mode of olleh will not always be 664. Make sure your script works for any mode.**
-> 
+> 📝 **Required :** 
+
+| | Guides                                                                              |
+|-| ----------------------------------------------------------------------------------- |
+|-| the mode of olleh will not always be 664. Make sure your script works for any mode. |
+ 
 <br> 
  
 > 📁 **11. Directories**
