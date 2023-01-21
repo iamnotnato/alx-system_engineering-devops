@@ -217,7 +217,7 @@
 
 | | Guides                                                                                      |
 |-| ------------------------------------------------------------------------------------------- |
-|-| *You can assume that the directory /tmp/u will exist when we will run your script           | 
+|-| You can assume that the directory /tmp/u will exist when we will run your script            | 
 
 <br> 
  
