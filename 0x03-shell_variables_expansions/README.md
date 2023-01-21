@@ -73,8 +73,7 @@
 > 📑 **Task :** A script that counts the number of directories in the PATH.
 >
 > 💬 *Quote : Anatole France — 'If the path be beautiful, let us not ask where it leads.'* 
->
-  
+>  
 <br>
  
 > 📁 **4. Global variables**
@@ -131,16 +130,15 @@
 >
 > 💬 *Quote : Every addition to true knowledge is an addition to human power.“ - Horace Mann.*
 >
-
 <br>
 
 > ✔️ Sample test cases :
 
 ```
-:~$ export TRUEKNOWLEDGE=1209
-:~$ ./8-true_knowledge | cat -e
+~$ export TRUEKNOWLEDGE=1209
+~$ ./8-true_knowledge | cat -e
 1337$
-:~$
+~$
 ```
 <br>
 
@@ -160,17 +158,16 @@
 |-| ------------------------------------------ |
 |-| POWER and DIVIDE are environment variables |
 
-
 <br>
 
 > ✔️ Sample test cases :
 
 ```
-:~$ export POWER=42784
-:~$ export DIVIDE=32
-:~$ ./9-divide_and_rule | cat -e
+~$ export POWER=42784
+~$ export DIVIDE=32
+~$ ./9-divide_and_rule | cat -e
 1337$
-:~$
+~$
 ```
 <br>
 
@@ -194,11 +191,11 @@
 > ✔️ Sample test cases :
 
 ```
-:~/$ export BREATH=4
-:~/$ export LOVE=3
-~/$ ./10-love_exponent_breath
+~$ export BREATH=4
+~$ export LOVE=3
+~$ ./10-love_exponent_breath
 64
-:~/$
+~$
 ```
 <br>
 
@@ -217,16 +214,15 @@
 |-| The number in base 2 is stored in the environment variable BINARY      |
 |-| The script should display the number in base 10, followed by a new line|
 
-
 <br>
 
 > ✔️ Sample test cases :
 
 ```
-:~/$ export BINARY=10100111001
-:~/$ ./11-binary_to_decimal
+~$ export BINARY=10100111001
+~$ ./11-binary_to_decimal
 1337
-:~/$
+~$
 ```
 <br>
 
@@ -246,19 +242,17 @@
 |-| Do not print oo                                         |
 |-| Your script file should contain maximum 64 characters   |
 
-<br> 
-
 <br>
 
 > ✔️ Sample test cases :
 
 ```
-$ echo $((26 ** 2 -1))
+~$ echo $((26 ** 2 -1))
 675
-$ ./12-combinations | wc -l
+~$ ./12-combinations | wc -l
 675
-$
-$ ./12-combinations | tail -303 | head -10
+~$
+~$ ./12-combinations | tail -303 | head -10
 oi
 oj
 ok
@@ -269,7 +263,7 @@ op
 oq
 or
 os
-$ 
+~$ 
 ```
 <br>
   
@@ -281,27 +275,25 @@ $
 >
 > 📝 **Required :** 
 
-
 | | Guides                                                        |
 |-| ------------------------------------------------------------- |
 |-| The number will be stored in the environment variable NUM.    |
-
 
 <br>
 
 > ✔️ Sample test cases :
 
 ```
-$ export NUM=0
-$ ./13-print_float
+~$ export NUM=0
+~$ ./13-print_float
 0.00
-$ export NUM=98
-$ ./13-print_float
+~$ export NUM=98
+~$ ./13-print_float
 98.00
-$ export NUM=3.14159265359
-$ ./13-print_float
+~$ export NUM=3.14159265359
+~$ ./13-print_float
 3.14
-$
+~$
 ```
 <br>
  
@@ -313,7 +305,6 @@ $
 >
 > 📝 **Required :** 
 
-
 | | Guides                                                        |
 |-| ------------------------------------------------------------- |
 |-| The number in base 10 is stored in the environment variable DECIMAL    |
@@ -324,19 +315,18 @@ $
 > ✔️ Sample test cases :
 
 ```
-:~/$ export DECIMAL=16
-:~/$ ./100-decimal_to_hexadecimal
+~$ export DECIMAL=16
+~$ ./100-decimal_to_hexadecimal
 10
-:~/$ export DECIMAL=1337
-:~/$ ./100-decimal_to_hexadecimal | cat -e
+~$ export DECIMAL=1337
+~$ ./100-decimal_to_hexadecimal | cat -e
 539$
-:~/$ export DECIMAL=15
-:~/$ ./100-decimal_to_hexadecimal | cat -e
+~$ export DECIMAL=15
+~$ ./100-decimal_to_hexadecimal | cat -e
 f$
-:~/$
+~$
 ```
 <br>
-<br>   
    
 > 📁 **15. Everyone is a proponent of strong encryption**
 >
@@ -352,13 +342,13 @@ f$
 > ✔️ Sample test cases :
 
 ```
-$ cat quote
+~$ cat quote
 "Everyone is a proponent of strong encryption."
 - Dorothy E. Denning
-$ ./101-rot13 < quote
+~$ ./101-rot13 < quote
 "Rirelbar vf n cebcbarag bs fgebat rapelcgvba."
 - Qbebgul R. Qraavat
-$
+~$
 ```
 <br>
  
@@ -388,18 +378,15 @@ $
 |-| STIR is in base stir.                   |
 |-| The result should be in base bestchol   | 
 
-
-<br> 
-
 <br>
 
 > ✔️ Sample test cases :
 
 ```
-:~$ export WATER="ewwatratewa"
-:~$ export STIR="ti.itirtrtr"
-:~$ ./103-water_and_stir
+~$ export WATER="ewwatratewa"
+~$ export STIR="ti.itirtrtr"
+~$ ./103-water_and_stir
 shtbeolhc
-:~$
+~$
 ```
 <br>
