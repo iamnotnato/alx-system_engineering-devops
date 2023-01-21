@@ -40,10 +40,12 @@
 > 📑 **Task :** A script that creates an alias.
 >
 > 📝 **Required :** 
->
-> * **Name: ls**
-> * **Value: rm **
->
+
+| | Guides    |
+|-| --------- |
+|-| Name: ls  |
+|-| Value: rm |
+
 <br> 
  
 > 📁 **1. Hello you**
@@ -98,10 +100,12 @@
 > 📑 **Task :** A script that creates a new local variable.
 >
 > 📝 **Required :** 
->
-> * **Name: BEST**
-> * **Value: School**
->
+
+| | Guides        |
+|-| ------------- |
+|-| Name: BEST    |
+|-| Value: School |
+
 <br>   
    
 > 📁 **7. Global variable**
@@ -111,10 +115,12 @@
 > 📑 **Task :** A script that creates a new global variable.
 >
 > 📝 **Required :** 
->
-> * **Name: BEST**
-> * **Value: School**
->
+
+| | Guides        |
+|-| ------------- |
+|-| Name: BEST    |
+|-| Value: School |
+
 <br> 
  
 > 📁 **8. Every addition to true knowledge is an addition to human power**
@@ -149,9 +155,12 @@
 > *Historically, this strategy was used in many different ways by empires seeking to expand their territories.* 
 >
 > 📝 **Required :** 
->
-> * **POWER and DIVIDE are environment variables**
->
+
+| | Guides                                     |
+|-| ------------------------------------------ |
+|-| POWER and DIVIDE are environment variables |
+
+
 <br>
 
 > ✔️ Sample test cases :
@@ -174,10 +183,11 @@
 > 💬 *Quote : Love is anterior to life, posterior to death, initial of creation, and the exponent of breath. - Emily Dickinson* 
 >
 > 📝 **Required :** 
->
-> * **BREATH and LOVE are environment variables**
-> * **The script should display the result, followed by a new line**
->
+
+| | Guides        |
+|-| ------------- |
+|-| BREATH and LOVE are environment variables  |
+|-| The script should display the result, followed by a new line |
 
 <br>
 
@@ -201,10 +211,12 @@
 > 😂 *Joke : “There are only 10 types of people in the world: those who understand binary and those who don’t.” — Unknown.* 
 >
 > 📝 **Required :** 
->
-> * **The number in base 2 is stored in the environment variable BINARY**
-> * **The script should display the number in base 10, followed by a new line**
->
+
+| | Guides                                                                 |
+|-| ---------------------------------------------------------------------- |
+|-| The number in base 2 is stored in the environment variable BINARY      |
+|-| The script should display the number in base 10, followed by a new line|
+
 
 <br>
 
@@ -268,9 +280,12 @@ $
 > 📑 **Task :** A script that prints a number with two decimal places, followed by a new line.
 >
 > 📝 **Required :** 
->
-> * **The number will be stored in the environment variable NUM.**
->
+
+
+| | Guides                                                        |
+|-| ------------------------------------------------------------- |
+|-| The number will be stored in the environment variable NUM.    |
+
 
 <br>
 
@@ -297,10 +312,12 @@ $
 > 📑 **Task :** A script that converts a number from base 10 to base 16.
 >
 > 📝 **Required :** 
->
-> * **The number in base 10 is stored in the environment variable DECIMAL**
-> * **The script should display the number in base 16, followed by a new line**
->
+
+
+| | Guides                                                        |
+|-| ------------------------------------------------------------- |
+|-| The number in base 10 is stored in the environment variable DECIMAL    |
+|-| The script should display the number in base 16, followed by a new line  |
 
 <br>
 
