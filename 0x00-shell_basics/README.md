@@ -168,18 +168,15 @@
 > 💾 **File :** [13-symbolic_link](./13-symbolic_link)
 > 
 > 📑 **Task :** A symbolic link to /bin/ls, named __ls__.
-> 
-> 📝 **Required :** 
+>
+> 💬 *Quote : "We are symbols, and inhabit symbols." - Ralph Waldo.*
 >
 > 📝 **Required :** 
 
 | | Guides                                                                  |
 |-| ----------------------------------------------------------------------- |
 |-| The symbolic link should be created in the current working directory.   | 
-
-> 
-> 💬 *Quote : "We are symbols, and inhabit symbols." - Ralph Waldo.*
-> 
+ 
 <br> 
  
 > 📁 **14. Copy HTML files**
@@ -187,7 +184,7 @@
 > 💾 **File :** [14-copy_html](./14-copy_html)
 > 
 > 📑 **Task :** A script that copies all the HTML files from the current working directory to the parent of the working directory.
-
+>
 > 📝 **Required :**
 
 | | Guides                                                                                      |
@@ -209,7 +206,6 @@
 | | Guides                                                                                      |
 |-| ------------------------------------------------------------------------------------------- |
 |-| *You can assume that the directory /tmp/u will exist when we will run your script           | 
-
 
 <br> 
  
