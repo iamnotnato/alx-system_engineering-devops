@@ -89,6 +89,8 @@
 >
 > 📝 **Required :**
 
+<br>
+
 | | Guides                                            |
 |-| ------------------------------------------------- |
 |-| You’re not allowed to use sed.                    | 
@@ -112,6 +114,8 @@
 > 📑 **Task :** A script that writes into the file ls_cwd_content the result of the command ls -la. 
 > 
 > 📝 **Required :**
+
+<br>
 
 | | Guides                                                                 |
 |-| ---------------------------------------------------------------------- |
@@ -144,6 +148,8 @@
 >  
 > 📝 **Required :**
 
+<br>
+
 | | Guides                                                                     |
 |-| -------------------------------------------------------------------------- |
 |-| The current and parent directories should not be taken into account.       | 
@@ -158,6 +164,8 @@
 > 📑 **Task :** A script that displays the 10 newest files in the current directory.
 > 
 > 📝 **Required :**
+
+<br>
 
 | | Guides                                       |
 |-| -------------------------------------------- |
@@ -175,6 +183,8 @@
 > 📑 **Task :** A script that takes a list of words as input and prints only words that appear exactly once.
 >  
 > 📝 **Required :**
+
+<br>
 
 | | Guides                                   |
 |-| ---------------------------------------- |
@@ -223,6 +233,8 @@
 > 📑 **Task :** Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 > 
 > 📝 **Required :**
+
+<br>
 
 | | Guides                              |
 |-| ------------------------------------|
@@ -278,6 +290,8 @@
 > 
 > 📝 **Required :**
 
+<br>
+
 | | Guides                                                            |
 |-| ----------------------------------------------------------------- |
 |-| Only the names of the files and directories should be displayed   |
@@ -298,6 +312,8 @@
 > 📑 **Task :** A script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 > 
 > 📝 **Required :**
+
+<br>
 
 | | Guides                                                                              |
 |-| ----------------------------------------------------------------------------------- |
@@ -322,6 +338,8 @@
 > 
 > 📝 **Required :**
 
+<br>
+
 | | Guides                                                           |
 |-| ---------------------------------------------------------------- |
 |-| The ‘decoded’ message has to end with a new line.                | 
@@ -336,6 +354,8 @@
 > 📑 **Task :** A script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 > 
 > 📝 **Required :**
+
+<br>
 
 | | Guides                                                            |
 |-| ----------------------------------------------------------------- |
