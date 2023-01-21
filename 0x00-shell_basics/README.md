@@ -59,6 +59,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                            |
 |-| ------------------------------------------------- |
 |-| You are not allowed to use any shell variables    | 
@@ -88,6 +90,8 @@
 > 📑 **Task :** Display current directory contents.
 > 
 > 📝 **Required :** 
+
+<br>
 
 | | Guides                                            |
 |-| ------------------------------------------------- |
@@ -147,6 +151,8 @@
 >
 > 📝 **Required :**
 
+<br>
+
 | | Guides                                                                              |
 |-| ----------------------------------------------------------------------------------- |
 |-| It lists all files in the the parent of the working directory.                      | 
@@ -173,6 +179,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                                                  |
 |-| ----------------------------------------------------------------------- |
 |-| The symbolic link should be created in the current working directory.   | 
@@ -186,6 +194,8 @@
 > 📑 **Task :** A script that copies all the HTML files from the current working directory to the parent of the working directory.
 >
 > 📝 **Required :**
+
+<br>
 
 | | Guides                                                                                      |
 |-| ------------------------------------------------------------------------------------------- |
@@ -202,6 +212,8 @@
 > 📑 **Task :**: A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 > 
 > 📝 **Required :** 
+
+<br>
 
 | | Guides                                                                                      |
 |-| ------------------------------------------------------------------------------------------- |
@@ -225,6 +237,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                                                             |
 |-| ---------------------------------------------------------------------------------- |
 |-| You are only allowed to use two spaces (and lines) in your script, not more        | 
@@ -240,6 +254,8 @@
 > 💬 *Quote : "Life is a series of commas, not periods." - Matthew McConaughey*
 >
 > 📝 **Required :**
+
+<br>
 
 | | Guides                                                                                                          |
 |-| --------------------------------------------------------------------------------------------------------------- |
@@ -260,6 +276,8 @@
 > 📑 **Task :** A magic file school.mgc that can be used with the command file to detect School data files.
 > 
 > 📝 **Required :** 
+
+<br>
 
 | | Guides                                                               |
 |-| -------------------------------------------------------------------- |
