@@ -41,6 +41,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides    |
 |-| --------- |
 |-| Name: ls  |
@@ -100,6 +102,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides        |
 |-| ------------- |
 |-| Name: BEST    |
@@ -114,6 +118,8 @@
 > 📑 **Task :** A script that creates a new global variable.
 >
 > 📝 **Required :** 
+
+<br>
 
 | | Guides        |
 |-| ------------- |
@@ -154,6 +160,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                     |
 |-| ------------------------------------------ |
 |-| POWER and DIVIDE are environment variables |
@@ -180,6 +188,8 @@
 > 💬 *Quote : Love is anterior to life, posterior to death, initial of creation, and the exponent of breath. - Emily Dickinson* 
 >
 > 📝 **Required :** 
+
+<br>
 
 | | Guides        |
 |-| ------------- |
@@ -209,6 +219,8 @@
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                                                 |
 |-| ---------------------------------------------------------------------- |
 |-| The number in base 2 is stored in the environment variable BINARY      |
@@ -233,6 +245,8 @@
 > 📑 **Task :** A script that prints all possible combinations of two letters, except oo.
 >
 > 📝 **Required :** 
+
+<br>
 
 | | Guides                                                  |
 |-| ------------------------------------------------------- |
@@ -275,6 +289,8 @@ os
 >
 > 📝 **Required :** 
 
+<br>
+
 | | Guides                                                        |
 |-| ------------------------------------------------------------- |
 |-| The number will be stored in the environment variable NUM.    |
@@ -304,6 +320,8 @@ os
 > 📑 **Task :** A script that converts a number from base 10 to base 16.
 >
 > 📝 **Required :** 
+
+<br>
 
 | | Guides                                                        |
 |-| ------------------------------------------------------------- |
@@ -371,6 +389,8 @@ f$
 > 💬 *Quote : "I'm an instant star. Just add water and stir." - David Bowie*
 >
 > 📝 **Required :** 
+
+<br>
 
 | | Guides                                  |
 |-| --------------------------------------- |
