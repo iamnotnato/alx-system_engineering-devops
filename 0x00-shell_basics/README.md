@@ -188,7 +188,9 @@
 
 | | Guides                                                                  |
 |-| ----------------------------------------------------------------------- |
-|-| The symbolic link should be created in the current working directory.   | 
+|-| The symbolic link should be created in the current working directory.   |
+
+<br>
 
 > 📝 **Footnotes :** 
 
