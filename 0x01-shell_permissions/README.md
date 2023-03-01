@@ -49,7 +49,13 @@
 |-| You can assume that the user betty will exist when we will run your script               |
 
 <br> 
+
+> 📝 **Notes :** 
+
+> The Unix command su, which stands for 'substitute user' (or historically 'superuser'), is used by a computer user to execute commands with the privileges of another user account.
  
+<br>
+
 > 📁 **1. Who am I**
 > 
 > 💾 **File :** [1-who_am_i](./1-who_am_i)
