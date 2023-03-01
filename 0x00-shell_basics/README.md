@@ -113,7 +113,8 @@
 > 
 > Creates missing intermediate path name directories. 
 >
->If the -p flag is not specified, the parent directory of each-newly created directory must already exist.
+>If the `-p` flag is not specified, the parent directory of each-newly created directory must already exist.
+
 <br>   
    
 > 📁 **7. Betty in my first directory**
@@ -657,6 +658,8 @@ Note : (Portable Operating System Interface) is a set of standard operating syst
 | | Guides                                                               |
 |-| -------------------------------------------------------------------- |
 |-| School data files always contain the string SCHOOL at offset 0.      |
+  
+<br>
   
 > 📝 **Footnotes :** 
 
