@@ -347,6 +347,25 @@
 |-| You can assume that the directory /tmp/u will exist when we will run your script            | 
 
 <br> 
+  
+> 📝 **Footnotes :** 
+  
+<h5> Bash </h5>
+> `^` to convert the first letter to uppercase and ^^ to convert all characters to uppercase.
+
+> `,` to convert the first letter to lowercase and ,, to convert all characters to lowercase.
+
+> `~` to toggles the case for the first character and ~~ to toggle cases for all characters.
+
+  <h5> POSIX </h5>
+
+Note : (Portable Operating System Interface) is a set of standard operating system interfaces based on the Unix operating system.
+  
+> If you are looking for portability, use the tr command with [:lower:] and [:upper:].
+>
+> The tr command translates characters by using it with character classes. 
+>
+> You can use a character class using the syntax [:class:] where class is one of the POSIX character classes.
  
 > 📁 **16. Clean Emacs**
 > 
