@@ -109,7 +109,9 @@
 >
 >📝 **Note :** `Mkdir -p`
 >
->**-p.** Creates missing intermediate path name directories. 
+> `-p`
+> 
+> Creates missing intermediate path name directories. 
 >
 >If the -p flag is not specified, the parent directory of each-newly created directory must already exist.
 <br>   
