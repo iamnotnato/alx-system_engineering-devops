@@ -360,7 +360,7 @@
 
 > `~` to toggles the case for the first character and ~~ to toggle cases for all characters.
 
-  <h5> POSIX </h5>
+<h5> POSIX </h5>
 
 Note : (Portable Operating System Interface) is a set of standard operating system interfaces based on the Unix operating system.
   
@@ -370,19 +370,20 @@ Note : (Portable Operating System Interface) is a set of standard operating syst
 >
 > You can use a character class using the syntax [:class:] where class is one of the POSIX character classes.
   
-# POSIX character classes
-alnum: Alphanumeric characters [:alpha:] and [:digit:]
-blank: Space and tag 
-digit: 0-9 
-lower: Lowercase letters
-punct: Punctuation characters
-upper: Uppercase letters
-alpha: Alphabetic characters [:lower:] and [:upper:]
-cntrl: Control characters
-graph: Graphic characters [:alnum:] and [:punct:]
-print: Printable characters
-space: Space characters
-xdigit: Hexadecimal digits 0-9 A-F a-f
+<h5> POSIX character classes </h5>
+  
+`alnum:` Alphanumeric characters [:alpha:] and [:digit:]
+`blank:` Space and tag 
+`digit:` 0-9 
+`lower:` Lowercase letters
+`punct:` Punctuation characters
+`upper:` Uppercase letters
+`alpha:` Alphabetic characters [:lower:] and [:upper:]
+`cntrl:` Control characters
+`graph:` Graphic characters [:alnum:] and [:punct:]
+`print:` Printable characters
+`space:` Space characters
+`xdigit:` Hexadecimal digits 0-9 A-F a-f
   
 <br>
  
