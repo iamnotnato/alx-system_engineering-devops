@@ -208,7 +208,7 @@ There can be numerous combinations of file permissions you can invoke, revoke an
 The octal notations
 You can also use octal notations like this. 
  
-https://github.com/iamnotnato/Hello-C/blob/master/images/Truth-table-2.png
+<img src="https://github.com/iamnotnato/Hello-C/blob/master/images/c-type-conversion.png" width="600">
 
 octal table
 
