@@ -655,3 +655,11 @@ Note : (Portable Operating System Interface) is a set of standard operating syst
 | | Guides                                                               |
 |-| -------------------------------------------------------------------- |
 |-| School data files always contain the string SCHOOL at offset 0.      |
+  
+> 📝 **Footnotes :** 
+
+> The magic file contains lines describing magic numbers, which identify particular types of files. 
+>
+> Lines beginning with a `>` or `&` character represent continuation lines to a preceding main entry: `>` 
+>
+>If the file command finds a match on the main entry line, these additional patterns are checked.
