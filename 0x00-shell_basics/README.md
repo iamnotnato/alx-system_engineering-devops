@@ -351,6 +351,9 @@
 > 📝 **Footnotes :** 
   
 <h5> Bash </h5>
+  
+<br>
+  
 > `^` to convert the first letter to uppercase and ^^ to convert all characters to uppercase.
 
 > `,` to convert the first letter to lowercase and ,, to convert all characters to lowercase.
