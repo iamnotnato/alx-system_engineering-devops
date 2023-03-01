@@ -106,8 +106,9 @@
 
 > Linux is a multi-user operating system, so it has security to prevent people from accessing each other’s confidential files.
 
-Understanding the security permissions
-First, you must think of those nine characters as three sets of three characters (see the box at the bottom). Each of the three “rwx” characters refers to a different operation you can perform on the file. 
+<h5> Understanding the security permissions </h5>
+
+> First, you must think of those nine characters as three sets of three characters (see the box at the bottom). Each of the three “rwx” characters refers to a different operation you can perform on the file. 
  
 
 ---     ---     ---
@@ -115,29 +116,33 @@ rwx     rwx     rwx
 user    group   other
  
 
-Read, write, execute and –
-The ‘r’ means you can “read” the file’s contents. 
-The ‘w’ means you can “write”, or modify, the file’s contents. 
-The ‘x’ means you can “execute” the file. This permission is given only if the file is a program. 
-If any of the “rwx” characters is replaced by a ‘-‘, then that permission has been revoked. 
+**Read, write, execute and –**
+
+> The ‘r’ means you can “read” the file’s contents.
+> 
+> The ‘w’ means you can “write”, or modify, the file’s contents.
+> 
+> The ‘x’ means you can “execute” the file. This permission is given only if the file is a program.
+> 
+> If any of the “rwx” characters is replaced by a ‘-‘, then that permission has been revoked. 
 
  
 
-User, group and others
+<h5> User, group and others </h5>
 user – The user permissions apply only the owner of the file or directory, they will not impact the actions of other users. 
 group – The group permissions apply only to the group that has been assigned to the file or directory, they will not effect the actions of other users. 
 others – The others permissions apply to all other users on the system, this is the permission group that you want to watch the most. 
 
-Reading the security permissions
+<h5> Reading the security permissions</h5>
+
 For example, consider that the user’s permissions for some files is “rw-” as the first three characters. This means that the owner of the file (“aditya314”, i.e. me) can “read” it (look at its contents) and “write” it (modify its contents). I cannot execute it because it is not a program; it is a text file. 
 
 If “r-x” is the second set of 3 characters it means that the members of the group “aditya314” can only read and execute the files. 
 
 The final three characters show the permissions allowed to anyone who has a UserID on this Linux system. Let us say we have the permission (“r–“). This means anyone in our Linux world can read, but they cannot modify the contents of the files or execute it. 
 
- 
+<h5> Changing security permissions</h5>
 
-Changing security permissions
 The command you use to change the security permissions on files is called “chmod”, which stands for “change mode”, because the nine security characters are collectively called the security “mode” of the file. 
 
  
@@ -203,9 +208,8 @@ assigns read(r) and execute(x) permission to both user(u) and group(g) and add r
 
 There can be numerous combinations of file permissions you can invoke, revoke and assign. You can try some in your linux system. 
 
- 
+<h5> The octal notations</h5>
 
-The octal notations
 You can also use octal notations like this. 
  
 <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/0x01-shell_permissions/images/octal-notation.jpg" width="600">
