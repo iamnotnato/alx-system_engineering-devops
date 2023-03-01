@@ -189,6 +189,16 @@
 | | Guides                                                                  |
 |-| ----------------------------------------------------------------------- |
 |-| The symbolic link should be created in the current working directory.   | 
+
+> 📝 **Footnotes :** 
+
+> A symlink is a symbolic Linux/ UNIX link that points to another file or folder on your computer, or a connected file system. This is similar to a Windows shortcut.
+
+> Symlinks can take two forms:
+
+> Soft links are similar to shortcuts, and can point to another file or directory in any file system.
+
+> Hard links are also shortcuts for files and folders, but a hard link cannot be created for a folder or file in a different file system.
  
 <br> 
  
