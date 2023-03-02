@@ -148,103 +148,101 @@
 
 > The final three characters show the permissions allowed to anyone who has a UserID on this Linux system.
 >
->Let us say we have the permission (“r–“). This means anyone in our Linux world can read, but they cannot modify the contents of the files or execute it. 
+> Let us say we have the permission (“r–“). This means anyone in our Linux world can read, but they cannot modify the contents of the files or execute it. 
 
 <h5> Changing security permissions</h5>
 
 > The command you use to change the security permissions on files is called “chmod”, which stands for “change mode”, because the nine security characters are collectively called the security “mode” of the file. 
 
-The first argument you give to the “chmod” command is ‘u’, ‘g’, ‘o’. We use: 
-u for user 
-g for group 
-o for others, 
-you can also use a combination of them (u,g,o). 
-This specifies which of the three groups you want to modify. 
+> The first argument you give to the “chmod” command is ‘u’, ‘g’, ‘o’. We use: 
+>u for user 
+>g for group 
+>o for others, 
+>you can also use a combination of them (u,g,o). 
+>This specifies which of the three groups you want to modify. 
  
-After this use 
-a ‘+’ for adding 
-a ‘-‘ for removing 
-and a “=” for assigning a permission.
-Then specify the permission r,w or x you want to change. 
-Here also you can use a combination of r,w,x. 
-This specifies which of the three permissions “rwx” you want to modify
-use can use commas to modify more permissions
-Finally, the name of the file whose permission you are changing
-An example will make this clearer. 
-For example, if you want to give “execute” permission to the world (“other”) for file “xyz.txt”, you would start by typing 
- 
-
-chmod o
-Now you would type a ‘+’ to say that you are “adding” a permission. 
+> After this use 
+> a ‘+’ for adding 
+> a ‘-‘ for removing 
+> and a “=” for assigning a permission.
+> Then specify the permission r,w or x you want to change. 
+> Here also you can use a combination of r,w,x. 
+> This specifies which of the three permissions “rwx” you want to modify
+> use can use commas to modify more permissions
+> Finally, the name of the file whose permission you are changing
+> An example will make this clearer. 
+> For example, if you want to give “execute” permission to the world (“other”) for file “xyz.txt”, you would start by typing 
  
 
-chmod o+
-Then you would type an ‘x’ to say that you are adding “execute” permission. 
+> chmod o
+> Now you would type a ‘+’ to say that you are “adding” a permission. 
  
 
-chmod o+x
-Finally, specify which file you are changing. 
+> chmod o+
+> Then you would type an ‘x’ to say that you are adding “execute” permission. 
  
 
-chmod o+x xyz.txt
-You can see the change in the picture below. 
+> chmod o+x
+> Finally, specify which file you are changing. 
  
 
-chmod o+x xyz.txt
+> chmod o+x xyz.txt
 
-You can also change multiple permissions at once. For example, if you want to take all permissions away from everyone, you would type 
+
+> You can also change multiple permissions at once. For example, if you want to take all permissions away from everyone, you would type 
  
 
-chmod ugo-rwx xyz.txt
-The code above revokes all the read(r), write(w) and execute(x) permission from all user(u), group(g) and others(o) for the file xyz.txt which results to this. 
+> chmod ugo-rwx xyz.txt
+> The code above revokes all the read(r), write(w) and execute(x) permission from all user(u), group(g) and others(o) for the file xyz.txt which results to this. 
  
 
-multiple use
+> multiple use
 
-Another example can be this: 
+> Another example can be this: 
  
 
-chmod ug+rw,o-x abc.mp4
-The code above adds read(r) and write(w) permission to both user(u) and group(g) and revoke execute(x) permission from others(o) for the file abc.mp4. 
+> chmod ug+rw,o-x abc.mp4
+> The code above adds read(r) and write(w) permission to both user(u) and group(g) and revoke execute(x) permission from others(o) for the file abc.mp4. 
 
-Something like this: 
+> Something like this: 
  
 
-chmod ug=rx,o+r abc.c
-assigns read(r) and execute(x) permission to both user(u) and group(g) and add read permission to others for the file abc.c. 
+> chmod ug=rx,o+r abc.c
+> assigns read(r) and execute(x) permission to both user(u) and group(g) and add read permission to others for the file abc.c. 
 
-There can be numerous combinations of file permissions you can invoke, revoke and assign. You can try some in your linux system. 
+> There can be numerous combinations of file permissions you can invoke, revoke and assign. You can try some in your linux system. 
 
 <h5> The octal notations</h5>
 
-You can also use octal notations like this. 
- 
+> You can also use octal notations like this. 
+
+
+<h6> octal table
+
 <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/0x01-shell_permissions/images/octal-notation.jpg" width="600">
 
-octal table
+> Using the octal notations table instead of ‘r’, ‘w’ and ‘x’. Each digit octal notation can be used of either of the group ‘u’,’g’,’o’. 
 
-Using the octal notations table instead of ‘r’, ‘w’ and ‘x’. Each digit octal notation can be used of either of the group ‘u’,’g’,’o’. 
-
-So, the following work the same. 
+> So, the following work the same. 
  
 
-chmod ugo+rwx [file_name]
-chmod 777 [file_name]
-Both of them provides full read write and execute permission (code=7) to all the group. 
+> chmod ugo+rwx [file_name]
+> chmod 777 [file_name]
+> Both of them provides full read write and execute permission (code=7) to all the group. 
 
-Same is the case with this.. 
+> Same is the case with this.. 
  
 
-chmod u=r,g=wx,o=rx [file_name]
-chmod 435 [file_name]
-Both the codes give read (code=4) permission to user, write and execute (code=3) for group and read and execute (code=5) for others. 
+> chmod u=r,g=wx,o=rx [file_name]
+> chmod 435 [file_name]
+> Both the codes give read (code=4) permission to user, write and execute (code=3) for group and read and execute (code=5) for others. 
 
-And even this… 
+> And even this… 
  
 
-chmod 775 [file_name]
-chmod ug+rwx,o=rx [file_name]
-Both the commands give all permissions (code=7) to user and group, read and execute (code=5) for others. 
+> chmod 775 [file_name]
+> chmod ug+rwx,o=rx [file_name]
+> Both the commands give all permissions (code=7) to user and group, read and execute (code=5) for others. 
 
 <br>   
    
