@@ -111,9 +111,9 @@
 > First, you must think of those nine characters as three sets of three characters (see the box at the bottom). Each of the three “rwx” characters refers to a different operation you can perform on the file. 
  
 
----     ---     ---
-rwx     rwx     rwx
-user    group   other
+|---|`   | `---` |    |---`|
+|`rwx` |    `rwx`  |   `rwx`|
+|`user`|    `group`  | `other`|
  
 
 **Read, write, execute and –**
