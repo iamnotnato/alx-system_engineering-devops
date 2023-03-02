@@ -111,8 +111,8 @@
 > First, you must think of those nine characters as three sets of three characters (see the box at the bottom). Each of the three “rwx” characters refers to a different operation you can perform on the file. 
  
 
-|  rwx | rwx   |  rwx  |
-|----- | ------ |-------|
+| rwx  |  rwx   | rwx   |
+|----- |------- |------ |
 | user |  group | other |
  
 
@@ -129,23 +129,30 @@
  
 
 <h5> User, group and others </h5>
-user – The user permissions apply only the owner of the file or directory, they will not impact the actions of other users. 
-group – The group permissions apply only to the group that has been assigned to the file or directory, they will not effect the actions of other users. 
-others – The others permissions apply to all other users on the system, this is the permission group that you want to watch the most. 
+
+> user – The user permissions apply only the owner of the file or directory, they will not impact the actions of other users.
+>
+> group – The group permissions apply only to the group that has been assigned to the file or directory, they will not effect the actions of other users.
+>
+> others – The others permissions apply to all other users on the system, this is the permission group that you want to watch the most. 
 
 <h5> Reading the security permissions</h5>
 
-For example, consider that the user’s permissions for some files is “rw-” as the first three characters. This means that the owner of the file (“aditya314”, i.e. me) can “read” it (look at its contents) and “write” it (modify its contents). I cannot execute it because it is not a program; it is a text file. 
+> For example, consider that the user’s permissions for some files is “rw-” as the first three characters.
+>
+> This means that the owner of the file can “read” it (look at its contents) and “write” it (modify its contents).
+>
+> I cannot execute it because it is not a program; it is a text file. 
 
-If “r-x” is the second set of 3 characters it means that the members of the group “aditya314” can only read and execute the files. 
+> If “r-x” is the second set of 3 characters it means that the members of the group can only read and execute the files. 
 
-The final three characters show the permissions allowed to anyone who has a UserID on this Linux system. Let us say we have the permission (“r–“). This means anyone in our Linux world can read, but they cannot modify the contents of the files or execute it. 
+> The final three characters show the permissions allowed to anyone who has a UserID on this Linux system.
+>
+>Let us say we have the permission (“r–“). This means anyone in our Linux world can read, but they cannot modify the contents of the files or execute it. 
 
 <h5> Changing security permissions</h5>
 
-The command you use to change the security permissions on files is called “chmod”, which stands for “change mode”, because the nine security characters are collectively called the security “mode” of the file. 
-
- 
+> The command you use to change the security permissions on files is called “chmod”, which stands for “change mode”, because the nine security characters are collectively called the security “mode” of the file. 
 
 The first argument you give to the “chmod” command is ‘u’, ‘g’, ‘o’. We use: 
 u for user 
