@@ -245,6 +245,13 @@
 > chmod 775 [file_name]
 > chmod ug+rwx,o=rx [file_name]
 > Both the commands give all permissions (code=7) to user and group, read and execute (code=5) for others. 
+  
+> Note :
+  
+> 4 - Stands for "read"
+> 2 - Stands for "write"
+> 1 - Stands for "execute"
+> 0 - Stands for "no permissions"
 
 <br>   
    
