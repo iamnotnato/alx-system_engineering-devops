@@ -217,7 +217,9 @@
 > You can also use octal notations like this. 
 
 
-<h6> octal table
+<h6> octal table <h6>
+  
+ <br>
 
 <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/0x01-shell_permissions/images/octal-notation.jpg" width="600">
 
