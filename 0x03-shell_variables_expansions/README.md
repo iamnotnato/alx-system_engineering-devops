@@ -92,6 +92,14 @@
 >
 > 📑 **Task :** A script that lists environment variables.
 >
+> 📝 **Notes :** 
+
+> In Linux and Unix based systems environment variables are a set of dynamic named values, stored within the system that are used by applications launched in shells or subshells.
+>
+> In simple words, an environment variable is a variable with a name and an associated value.
+>
+> Environment variables allow you to customize how the system works and the behavior of the applications on the system.
+>
 <br>   
    
 > 📁 **5. Local variables**
