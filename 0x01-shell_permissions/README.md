@@ -217,7 +217,7 @@
 > You can also use octal notations like this. 
 
 
-<h6> octal table <h6>
+<h6> Octal Table <h6>
   
  <br>
 
