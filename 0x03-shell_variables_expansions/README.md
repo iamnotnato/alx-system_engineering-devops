@@ -48,6 +48,14 @@
 |-| Name: ls  |
 |-| Value: rm |
 
+> 📝 ** Note :** 
+
+> Linux 'alias' command replaces one string from the shell with another string. It is a shell built-in command.
+>
+> It converts a complicated command into a simpler command or in other words, it creates a shortcut by replacing it with the simpler one.
+>
+> Making 'alias' in command line creates a temporary 'alias'.
+>
 <br> 
  
 > 📁 **1. Hello you**
