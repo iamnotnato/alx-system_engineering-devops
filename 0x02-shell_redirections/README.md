@@ -202,7 +202,7 @@
 >
 > 📝 **Footnotes :** 
 > 
-> Grep, or global regular expression print, is one of the most versatile and useful Linux commands available.
+> `Grep`, or global regular expression print, is one of the most versatile and useful Linux commands available.
 > 
 > It works by searching for text and strings that users define in a given file. In other words, grep enables users to search files for a particular pattern or word and see any lines that contain it.
 
