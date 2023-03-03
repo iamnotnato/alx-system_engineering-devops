@@ -262,8 +262,6 @@
 > 
 > 📑 **Task :** A script that removes all letters c and C from input.
 > 
-> 💡*Fun Fact : James Bond is a fictional character created by British novelist Ian Fleming in 1953.* 
-> 
 <br>
 
 > 📁 **21. esreveR**
