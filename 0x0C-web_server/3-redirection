@@ -1,24 +1,22 @@
 #!/usr/bin/env bash
-# script to install and setup nginx
-CONFIG_FILE="/etc/nginx/sites-available/default"
-# install nginx
-apt-get -y update
-apt-get -y install nginx
+# Configures an Nginx server so that /redirect_me redirects to another page.
+# The redirection is configured as a "301 Moved Permanently"
 
-# update index.html file
-echo 'Hello World!' > /usr/share/nginx/html/index.html
+apt-get update
+apt-get install -y nginx
 
-# update config file to redirect
+mkdir /etc/nginx/html
+touch /etc/nginx/html/index.html
+echo "Hello World!" > /etc/nginx/html/index.html
 printf %s "server {
     listen 80;
     listen [::]:80 default_server;
-    root   /usr/share/nginx/html;
+    root   /etc/nginx/html;
     index  index.html index.htm;
 
     location /redirect_me {
-        return 301 http://google.com/;
+        return 301 http://cuberule.com/;
     }
-}" > $CONFIG_FILE
+}" > /etc/nginx/sites-available/default
 
-# start nginx after reloading config
-service nginx start
+service nginx restart
