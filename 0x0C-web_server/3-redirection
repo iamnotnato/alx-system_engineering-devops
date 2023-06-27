@@ -1,13 +1,22 @@
 #!/usr/bin/env bash
-# Script to configure site redirection in nginx
+# Configures an Nginx server so that /redirect_me redirects to another page.
+# The redirection is configured as a "301 Moved Permanently"
 
-pattern="server_name _;"
-replacement="server_name _;\
-	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
-file="/etc/nginx/sites-available/default"
+apt-get update
+apt-get install -y nginx
 
-sudo apt -y update
-sudo apt -y upgrade
-sudo apt install -y nginx
-sudo sed -i "s@$pattern@$replacement@g" $file
-sudo service nginx restart
+mkdir /etc/nginx/html
+touch /etc/nginx/html/index.html
+echo "Hello World!" > /etc/nginx/html/index.html
+printf %s "server {
+    listen 80;
+    listen [::]:80 default_server;
+    root   /etc/nginx/html;
+    index  index.html index.htm;
+
+    location /redirect_me {
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+    }
+}" > /etc/nginx/sites-available/default
+
+service nginx restart
