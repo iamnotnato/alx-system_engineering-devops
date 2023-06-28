@@ -1,12 +1,31 @@
 #!/usr/bin/env bash
-# Configure a new Nginx server so that /redirect_me is redirecting to another page
+# script to install and setup nginx
+CONFIG_FILE="/etc/nginx/sites-available/default"
+# install nginx
+apt-get -y update
+apt-get -y install nginx
 
-sudo apt-get -y update
-sudo apt-get -y upgrade
-sudo apt-get -y install nginx
-sudo service nginx start
-echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/404.html
-newlines="\\\terror_page 404 /404.html;\n\tlocation = /404.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}"
-sudo sed -i "27i $newlines" /etc/nginx/sites-available/default
-sudo service nginx restart
-sudo service nginx reload
+# update index.html file
+echo 'Hello World!' > /usr/share/nginx/html/index.html
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/404.html
+
+# update config file to redirect
+printf %s "server {
+    listen 80;
+    listen [::]:80 default_server;
+    root   /usr/share/nginx/html;
+    index  index.html index.htm;
+
+    location /redirect_me {
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4/;
+    }
+
+    error_page 404 /404.html;
+    location /404 {
+      root /usr/share/nginx/html;
+      internal;
+    }
+}" > $CONFIG_FILE
+
+# start nginx after reloading config
+service nginx start
