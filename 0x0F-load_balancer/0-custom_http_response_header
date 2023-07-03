@@ -1,47 +1,33 @@
 #!/usr/bin/env bash
-# script to install and setup nginx
-CONFIG_FILE="/etc/nginx/sites-available/default"
-HOST_NAME=$(hostname)
-MY_ID=106387
+# configure web-02 to be identical to web-01
+# The value of the custom HTTP header must be the hostname of the server Nginx is running on
+#sudo sed -i 's/server_name _;.*/server_name _;\n\tadd_header X-Served-By \$hostname;/' /etc/nginx/sites-enabled/default
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo mkdir -p /var/www/html /var/www/error
+sudo chmod -R 755 /var/www
+echo 'Hello World!' > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/404.html
+server_config=\
+	     "server {
+listen 80 default_server;
+listen [::]:80 default_server;
+root /var/www/html;
+index index.html index.htm index.nginx-debian.html;
+server_name _;
+add_header X-Served-By \$hostname;
+location / {
+try_files \$uri \$uri/ =404;
+}
+if (\$request_filename ~ redirect_me){
+rewrite ^ https://youtube.com permanent;
+}
+error_page 404 /404.html;
+location = /404.html {
+internal;
+}
+}"
 
-# check if hostname is correct
-if [[ $(hostname) =~ ^$MY_ID-web-[0-9]+ ]]; then
-    echo 'hostname properly configured'
-else
-    (>&2 echo 'hostname not configured properly...')
-    (>&2 echo 'please set hostname to pattern: 106387-web-<server_id>...')
-    (>&2 echo 'Example: sudo hostnamectl set-hostname 106387-web-<insert_server_id_here>')
-fi
-
-# install nginx
-apt-get -y update
-apt-get -y install nginx
-
-# update index.html file
-echo 'Hello World!' > /usr/share/nginx/html/index.html
-echo "Ceci n'est pas une page" > /usr/share/nginx/html/404.html
-
-# update config file to redirect
-printf %s "server {
-    listen 80;
-    listen [::]:80 default_server;
-    root   /usr/share/nginx/html;
-    index  index.html index.htm;
-
-    add_header X-Served-By $HOST_NAME;
-
-    location /redirect_me {
-        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
-    }
-
-    error_page 404 /404.html;
-    location /404 {
-      root /usr/share/nginx/html;
-      internal;
-    }
-}" > $CONFIG_FILE
-
-# start nginx after reloading config
-service nginx start
-# if nginx was already running restart it
-service nginx restart
+echo "$server_config" > /etc/nginx/sites-enabled/default
+sudo service nginx restart
