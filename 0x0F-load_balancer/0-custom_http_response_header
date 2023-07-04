@@ -2,7 +2,7 @@
 # script to install and setup nginx
 CONFIG_FILE="/etc/nginx/sites-available/default"
 HOST_NAME=$(hostname)
-MY_ID=106387
+MY_ID=gc-106387
 
 # check if hostname is correct
 #if [[ $(hostname) =~ ^$MY_ID-web-[0-9]+ ]]; then
