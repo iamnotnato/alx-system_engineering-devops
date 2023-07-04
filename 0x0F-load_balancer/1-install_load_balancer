@@ -1,18 +1,45 @@
 #!/usr/bin/env bash
-# Script to install and setup HAProxy load balancer for two web servers
+# script for configuring HAProxy load balancer server
+MY_ID=106387
+CONFIG_FILE=/etc/haproxy/haproxy.cfg
+INPUT_LINE="
+frontend haproxynode
+        bind *:80
+        mode http
+        default_backend backendnodes
 
-sudo apt -y update
-sudo apt -y upgrade
-sudo apt -y install haproxy
+backend backendnodes
+        balance roundrobin
+        option forwardfor # ensure forwarded request includes cleint ip
+        server 106387-web-01 100.25.41.68
+        server 106387-web-02 34.207.121.230
+"
 
-config="\nlisten load-balancer
-bind *:80
-mode http
-balance roundrobin
-option httpclose
-option forwardfor
-server 106387-web-01 100.25.41.68:80 check
-server 106387-web-02 34.207.121.230:80 check"
+# check if hostname is correct
+if [[ $(hostname) =~ ^$MY_ID-lb-[0-9]+ ]]; then
+    echo 'hostname properly configured'
+    else
+        >&2 echo 'hostname not configured properly...'
+	    >&2 echo 'please set hostname to pattern: 106387-lb-<server_id>...'
+	        >&2 echo 'Example: sudo hostnamectl set-hostname 106387-lb-<insert_server_id_here>'
+		fi
 
-echo -e "$config" | sudo tee -a /etc/haproxy/haproxy.cfg
-sudo service haproxy restart
+# check if HAProxy was previously configured
+if [ "$(grep -o "$INPUT_LINE" $CONFIG_FILE | wc -l)" != 0 ]; then
+   echo 'HAProxy already configured to script specs :)...'
+   	# restart HAProxy
+	  service haproxy restart
+	  else
+		# install HAProxy Version 1.8
+		  apt-get -y install software-properties-common
+		  	  add-apt-repository -y ppa:vbernat/haproxy-1.8
+			  		     apt-get -y update
+					     	     apt-get -y install haproxy=1.8.\*
+
+						     # configure HAProxyd
+
+						     printf "%s" "$INPUT_LINE" >> $CONFIG_FILE
+
+						     # start HAProxy
+						       service haproxy start
+						       fi
