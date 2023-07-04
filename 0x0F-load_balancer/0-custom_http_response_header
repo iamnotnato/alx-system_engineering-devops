@@ -5,13 +5,13 @@ HOST_NAME=$(hostname)
 MY_ID=106387
 
 # check if hostname is correct
-if [[ $(hostname) =~ ^$MY_ID-web-[0-9]+ ]]; then
-    echo 'hostname properly configured'
-    else
-        (>&2 echo 'hostname not configured properly...')
-	    (>&2 echo 'please set hostname to pattern: 106387-web-<server_id>...')
-	        (>&2 echo 'Example: sudo hostnamectl set-hostname 106387-web-<insert_server_id_here>')
-		fi
+#if [[ $(hostname) =~ ^$MY_ID-web-[0-9]+ ]]; then
+#    echo 'hostname properly configured'
+#    else
+#        (>&2 echo 'hostname not configured properly...')
+#	    (>&2 echo 'please set hostname to pattern: 106387-web-<server_id>...')
+#	        (>&2 echo 'Example: sudo hostnamectl set-hostname 106387-web-<insert_server_id_here>')
+#		fi
 
 # install nginx
 apt-get -y update
@@ -31,7 +31,7 @@ printf %s "server {
     add_header X-Served-By $HOST_NAME;
 
     location /redirect_me {
-        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4/;
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;
     }
 
     error_page 404 /404.html;
