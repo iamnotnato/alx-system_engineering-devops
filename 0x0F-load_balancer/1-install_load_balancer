@@ -12,8 +12,8 @@ frontend haproxynode
 backend backendnodes
         balance roundrobin
         option forwardfor # ensure forwarded request includes client ip
-        server 106387-web-01 107.21.42.87:80 check
-        server 106387-web-02 34.207.121.230:80 check
+        server 106387-web-01 107.21.42.87
+        server 106387-web-02 34.207.121.230
 "
 
 # check if hostname is correct
