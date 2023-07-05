@@ -42,4 +42,5 @@ else
 
 	# start HAProxy
 	service haproxy start
+	systemctl enable haproxy
 fi
