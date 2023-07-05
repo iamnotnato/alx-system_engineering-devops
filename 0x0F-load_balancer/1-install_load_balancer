@@ -12,8 +12,8 @@ frontend haproxynode
 backend backendnodes
         balance roundrobin
         option forwardfor # ensure forwarded request includes client ip
-        server 106387-web-01 107.21.42.87
-        server 106387-web-02 34.207.121.230
+        server 106387-web-01 107.21.42.87:80 check
+        server 106387-web-02 34.207.121.230:80 check
 "
 
 # check if hostname is correct
@@ -31,11 +31,11 @@ if [ "$(grep -o "$INPUT_LINE" $CONFIG_FILE | wc -l)" != 0 ]; then
         # restart HAProxy
         service haproxy restart
 else
-        # install HAProxy Version 1.8
+        # install HAProxy Version 2.6
         apt install --no-install-recommends software-properties-common
-        add-apt-repository ppa:vbernat/haproxy-2.4 -y
+        add-apt-repository ppa:vbernat/haproxy-2.6 -y
         apt-get -y update
-        apt-get -y install haproxy=2.4.\*
+        apt-get -y install haproxy=2.6.\*
 
         # configure HAProxyd
 
