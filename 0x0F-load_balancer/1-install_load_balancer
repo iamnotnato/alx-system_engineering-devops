@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Installs HAProxy 
+# Installs HAProxy
 
 apt install --no-install-recommends software-properties-common
-add-apt-repository -y ppa:vbernat/haproxy-2.4
+add-apt-repository ppa:vbernat/haproxy-2.4 -y
 apt-get update
-apt-get install -y haproxy=2.4.\*
+apt install haproxy=2.4.\*
 
 echo "ENABLED=1" >> /etc/default/haproxy
 mv /etc/haproxy/haproxy.cfg{,.original}
@@ -35,8 +35,8 @@ listen hbnb
     balance roundrobin
     option httpclose
     option forwardfor
-    server 106786-web-01 107.21.42.87:80 check
-    server 106786-web-02 34.207.121.230:80 check
+    server 106387-web-01 107.21.42.87:80 check
+    server 106387-web-02 34.207.121.230:80 check
 " >> /etc/haproxy/haproxy.cfg
 
 service haproxy start
