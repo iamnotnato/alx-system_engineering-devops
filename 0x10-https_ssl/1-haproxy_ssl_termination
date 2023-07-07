@@ -1,4 +1,3 @@
-# HAProxy config file for ssl termination on LB side
 global
         log /dev/log    local0
         log /dev/log    local1 notice
@@ -9,9 +8,12 @@ global
         group haproxy
         daemon
 
-        # Max connections
+        #affects how many concurrent connections HAProxy will allow
+        #which can affect QoS
+        #prevent your web servers from crashing from trying to serve too many requests
         maxconn 2048
-        # Configure max size of temporary DHE keys that are generated
+
+        #configure the maximum size of temporary DHE keys
         tune.ssl.default-dh-param 2048
 
         # Default SSL material locations
@@ -28,10 +30,6 @@ defaults
         mode    http
         option  httplog
         option  dontlognull
-        # Ensure forwarded request includes client's IP
-        option forwardfor
-        # Reduce latency between HAProxy and users by closing conns
-        option http-server-close
         timeout connect 5000
         timeout client  50000
         timeout server  50000
@@ -42,26 +40,27 @@ defaults
         errorfile 502 /etc/haproxy/errors/502.http
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
-
-        frontend www-frontend
-        bind *:80
-        reqadd X-Forwarded-Proto:\ http
-        # if configuration for certbot pass to certbot backend
-        acl letsencrypt-acl path_beg /.well-known/acme-challenge/
-        use_backend le-certbot-backend if letsencrypt-acl
-
-        default_backend www-backend
-
-frontend www-https-frontend
-        bind *:443 ssl crt /etc/haproxy/certs/iamnato.tech.pem
-        reqadd X-Forwarded-Proto:\ https
-        default_backend www-backend
-
-backend le-certbot-backend
-        server letsencrypt 127.0.0.1:8888
+        option forwardfor
+        option http-server-close
 
 #--iamnato.tech-params-begin--
-backend www-backend
+backend iamnato.tech-backend
+        redirect scheme https if !{ ssl_fc }
         balance roundrobin
-        106387-web-01 107.21.42.87:80 check
-        106387-web-02 34.207.121.230:80 check
+        server 106387-web-01 107.21.42.87:80 check
+        server 106387-web-02 34.207.121.230:80 check
+frontend iamnato.tech-http-frontend
+        bind *:80
+        http-request set-header X-Forwarded-Proto http
+        default_backend iamnato.tech-backend
+
+frontend iamnato.tech-https-frontend
+        bind *:443 ssl crt /etc/haproxy/certs/iamnato.tech.pem
+        http-request set-header X-Forwarded-Proto https
+        acl letsencrypt-acl path_beg /.well-known/acme-challenge/
+        use_backend letsencrypt-backend if letsencrypt-acl
+        default_backend iamnato.tech-backend
+#--iamnato.tech-params-end--
+
+backend letsencrypt-backend
+   server letsencrypt 127.0.0.1:54321
