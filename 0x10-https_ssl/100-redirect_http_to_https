@@ -1,3 +1,5 @@
+#Enforce HTTPS traffic so that no unencrypted traffic is possible
+#Configure HAproxy to automatically redirect HTTP traffic to HTTPS.
 global
         log /dev/log    local0
         log /dev/log    local1 notice
