@@ -1,34 +1,38 @@
 #!/usr/bin/python3
-"""script for parsing web data from an api
+""" Script to get TODO list progress
+    by employee ID and save it to
+    CSV file
 """
-if __name__ == "__main__":
-    import json
-    import requests
-    import sys
-    base_url = 'https://jsonplaceholder.typicode.com/'
-    try:
-        employee_id = sys.argv[1]
-    except:
-        print('Usage: {} employee_id'.format(sys.argv[0]))
-        exit(1)
+from csv import writer, QUOTE_ALL
+from requests import get
+from sys import argv
 
-    # grab the info about the user
-    url = base_url + 'users?id={}'.format(employee_id)
-    response = requests.get(url)
-    user = json.loads(response.text)
-    user_name = user[0].get('username')
 
-    # grab the info about the user's tasks
-    url = base_url + 'todos?userId={}'.format(employee_id)
-    response = requests.get(url)
-    objs = json.loads(response.text)
-    builder = ""
-    for obj in objs:
-            builder += '"{}","{}","{}","{}"\n'.format(
-                employee_id,
-                user_name,
-                obj.get('completed'),
-                obj.get('title')
-            )
-    with open('{}.csv'.format(employee_id), 'w') as myFile:
-        myFile.write(builder)
+def todo_csv(emp_id):
+    """ Send request for employee's
+        to do list to API
+    """
+    file_name = '{}.csv'.format(emp_id)
+    url_user = 'https://jsonplaceholder.typicode.com/users/'
+    url_todo = 'https://jsonplaceholder.typicode.com/todos/'
+
+    # check if user exists
+    user = get(url_user + emp_id).json().get('username')
+
+    if user:
+        params = {'userId': emp_id}
+        #  get all tasks
+        tasks = get(url_todo, params=params).json()
+        if tasks:
+            #  open file in write mode and use csv writer to
+            #  writer content
+            with open(file_name, 'w', newline='', encoding='utf8') as f:
+                task_writer = writer(f, quoting=QUOTE_ALL)
+                for task in tasks:
+                    task_writer.writerow([emp_id, user, task.get('completed'),
+                                         task.get('title')])
+
+
+if __name__ == '__main__':
+    if len(argv) > 1:
+        todo_csv(argv[1])
