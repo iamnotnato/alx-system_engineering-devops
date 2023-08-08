@@ -48,25 +48,25 @@
 | 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
 | 02 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
 | 03 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
-| 00 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
-| 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
-| 02 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
-| 03 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
-| 00 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
-| 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
-| 02 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
-| 03 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
-| 00 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
-| 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
-| 02 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
-| 03 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
-| 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
-| 02 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
-| 03 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
-| 00 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
-| 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
-| 02 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
-| 03 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
+| 04 | [0x04. Loops, conditions and parsing](./0x04-loops_conditions_and_parsing)   | 
+| 05 | [0x05. Processes and signals](./0x05-processes_and_signals)                      |
+| 06 | [0x06. Regular expression](./0x06-regular_expressions)                    | 
+| 07 | [0x07. Networking basics #0](./0x07-networking_basics)  | 
+| 08 | [0x08. Networking basics #1](./0x08-networking_basics_2)                                | 
+| 09 | [0x09. Web infrastructure design](./0x09-web_infrastructure_design)                      |
+| 10 | [0x0A. Configuration management](./0x0A-configuration_management)                    | 
+| 11 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
+| 12 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
+| 13 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
+| 14 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
+| 15 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
+| 16 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
+| 17 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
+| 18 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
+| 19 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
+| 20 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
+| 21 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
+| 22 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
 
 
 
