@@ -42,7 +42,7 @@
 
 <br>
 
-| #  | Projects Guide:                                                           |
+| #  | Projects Guide:                                                                                                                                           |
 |--- | ------------------------------------------------------------------------- |
 | 00 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
 | 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
@@ -61,16 +61,16 @@
 | 14 | [0x0E. Web stack debugging #1](./0x0E-web_stack_debugging_1)                      |
 | 15 | [0x0F. Load balancer](./0x0F-load_balancer)                    | 
 | 16 | [0x10. HTTPS SSL](./0x10-https_ssl)  | 
-| 17 | [0x11. What happens when you type google.com in your browser and press Enter](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter)                      |
-| 18 | [0x12. Web stack debugging #2](./0x12-web_stack_debugging_2)                    | 
-| 19 | [0x13. Firewall](./0x13-firewall)  | 
-| 20 | [0x14. MySQL](./0x14-mysql)                                | 
-| 21 | [0x15. API](./0x15-api)                      |
-| 22 | [0x16. API advanced](./0x16-api_advanced)                    | 
-| 23 | [0x17. Web stack debugging #3](./0x17-web_stack_debugging_3)  |
-| 24 | [0x19. Postmortem](./0x19-postmortem)  | 
-| 25 | [Attack is the best defense](./attack_is_the_best_defense)  | 
-| 26 | [Command line for the win](./command_line_for_the_win)  | 
+| 17 | [0x11. What happens when you type google.com in your browser and press Enter](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter) |
+| 18 | [0x12. Web stack debugging #2](./0x12-web_stack_debugging_2)                                                                                                 | 
+| 19 | [0x13. Firewall](./0x13-firewall)                                                                                                                            | 
+| 20 | [0x14. MySQL](./0x14-mysql)                                                                                                                                  | 
+| 21 | [0x15. API](./0x15-api)                                                                                                                                      |
+| 22 | [0x16. API advanced](./0x16-api_advanced)                                                                                                                    | 
+| 23 | [0x17. Web stack debugging #3](./0x17-web_stack_debugging_3)                                                                                                 |
+| 24 | [0x19. Postmortem](./0x19-postmortem)                                                                                                                        | 
+| 25 | [Attack is the best defense](./attack_is_the_best_defense)                                                                                                   | 
+| 26 | [Command line for the win](./command_line_for_the_win)                                                                                                       | 
 
 
 
