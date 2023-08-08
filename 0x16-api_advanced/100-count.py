@@ -1,86 +1,46 @@
 #!/usr/bin/python3
-"""script for parsing web data from an api
+""" Recursive API calls to Redit
+    and count occurrences
 """
-import json
-import requests
-import sys
+from requests import get
 
 
-def get_hot_posts(subreddit, hot_list=[]):
-    """api call to reddit to get the number of subscribers
+def count_words(subreddit, word_list, key_words={}, count={}, after=None):
+    """ get count of occurrence of words in word_list from
+        titles in hot articles in given subreddit
     """
-    base_url = 'https://www.reddit.com/r/{}/top.json'.format(
-        subreddit
-    )
-    headers = {
-        "User-Agent": "linux:0x16.api.advanced:v1.0.0"
-    }
-    if len(hot_list) == 0:
-        # grab initial list
-        url = base_url
-    else:
-        # grab next pagination after last obj in hot_list
-        url = base_url + '?after={}_{}'.format(
-            hot_list[-1].get('kind'),
-            hot_list[-1].get('data').get('id')
-        )
-    response = requests.get(url, headers=headers)
-    resp = json.loads(response.text)
-    try:
-        data = resp.get('data')
-        children = data.get('children')
-    except:
-        return None
-    if children is None or data is None or len(children) < 1:
-        return hot_list
-    hot_list.extend(children)
-    return get_hot_posts(subreddit, hot_list)
+    if not count:
+        key_words = {word.lower(): 0 for word in word_list}
+        word_list = [word.lower() for word in word_list]
+        count = {word.lower(): word_list.count(word.lower())
+                 for word in word_list}
 
+    url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
+    params = {'after': after, 'limit': 100}
+    headers = {'user-agent': 'my-app/0.0.1'}
 
-def count_words(subreddit, wordlist):
-    """count words in titles of hot posts for subreddit
-    """
-    posts = get_hot_posts(subreddit)
-    if posts is None:
-        print(end="")
-        return
-    words = gather_word_info(posts, wordlist)
-    sorted_list = [(key, val) for key, val in words.items()]
-    sorted_list = sorted(sorted_list, key=lambda tup: tup[1], reverse=True)
-    [print("{}: {}".format(key, val)) for (key, val) in sorted_list if val > 0]
+    req = get(url, params=params, headers=headers, allow_redirects=False)
+    #  get data if request was successful
+    if req.status_code == 200:
+        data = req.json().get('data')
+        after = data.get('after')
+        posts = data.get('children')
 
+        #  get count of key words in each title
+        for post in posts:
+            title = post.get('data').get('title').lower()
+            words = title.split()
+            for word in key_words.keys():
+                key_words[word] += words.count(word)
 
-def gather_word_info(hot_posts, wordlist,
-                     posts_len=None,
-                     counter=0,
-                     words_info=None):
-    """does the recursion to grab word info from wordlist and posts
-    """
-    if hot_posts is None:
-        return
-    # generate defaults
-    if posts_len is None:
-        posts_len = len(hot_posts)
-    if words_info is None:
-        words_info = {key: 0 for key in wordlist}
-    # base case
-    if counter == posts_len - 1:
-        return words_info
-
-    # parse this title and move to next
-    data = hot_posts[counter].get('data')
-    if data is None:
-        return words_info
-    title = data.get('title')
-    if title is None:
-        return words_info
-    #recursion
-    for word in title.split(' '):
-        word = word.lower()
-        if word in wordlist:
-            words_info[word] += 1
-    counter += 1
-    return gather_word_info(
-        hot_posts, wordlist, posts_len,
-        counter, words_info
-    )
+        #  call recursive function if there's more data
+        if after:
+            return count_words(subreddit, word_list, key_words, count, after)
+        else:
+            for key in key_words.keys():
+                key_words[key] *= count[key]
+            key_words = sorted(key_words.items(),
+                               key=lambda item: (-item[1], item[0]))
+            for item in key_words:
+                if item[1] > 0:
+                    print("{}: {}".format(item[0], item[1]))
