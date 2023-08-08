@@ -55,18 +55,20 @@
 | 08 | [0x08. Networking basics #1](./0x08-networking_basics_2)                                | 
 | 09 | [0x09. Web infrastructure design](./0x09-web_infrastructure_design)                      |
 | 10 | [0x0A. Configuration management](./0x0A-configuration_management)                    | 
-| 11 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
-| 12 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
-| 13 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
-| 14 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
-| 15 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
-| 16 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
-| 17 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
-| 18 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
-| 19 | [0x00 - Shell Basics](./0x00-shell_basics)                                | 
-| 20 | [0x01 - Shell Permissions](./0x01-shell_permissions)                      |
-| 21 | [0x02 - Shell Redirections](./0x02-shell_redirections)                    | 
-| 22 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)  | 
+| 11 | [0x0B. SSH](./0x03-shell_variables_expansions)  | 
+| 12 | [0x0D. Web stack debugging #0](./0x00-shell_basics)                                | 
+| 13 | [0x0E. Web stack debugging #1](./0x01-shell_permissions)                      |
+| 14 | [0x0F. Load balancer](./0x02-shell_redirections)                    | 
+| 15 | [0x10. HTTPS SSL](./0x03-shell_variables_expansions)  | 
+| 16 | [0x11. What happens when you type google.com in your browser and press Enter](./0x01-shell_permissions)                      |
+| 17 | [0x12. Web stack debugging #2](./0x02-shell_redirections)                    | 
+| 18 | [0x13. Firewall](./0x03-shell_variables_expansions)  | 
+| 19 | [0x14. MySQL](./0x00-shell_basics)                                | 
+| 20 | [0x15. API](./0x01-shell_permissions)                      |
+| 21 | [0x16. API advanced](./0x02-shell_redirections)                    | 
+| 22 | [0x17. Web stack debugging #3](./0x03-shell_variables_expansions)  |
+| 23 | [0x19. Postmortem](./0x03-shell_variables_expansions)  | 
+
 
 
 
