@@ -42,7 +42,7 @@
 
 <br>
 
-| Hexadecimal |  Decimal | Projects Guide:                                                                                                                                            |
+| Hexadecimal Project # |  Decimal Equivalent| Projects Title:                                                                                                                                            |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0x00        | 00       | [Shell Basics](./0x00-shell_basics)                                                                                                                         | 
 | #  | 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                                                                                                         |
