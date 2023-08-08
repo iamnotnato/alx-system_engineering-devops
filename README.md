@@ -44,7 +44,7 @@
 
 | Hexadecimal |  Decimal | Projects Guide:                                                                                                                                            |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0x00        | 00       | Shell Basics](./0x00-shell_basics)                                                                                                                         | 
+| 0x00        | 00       | [Shell Basics](./0x00-shell_basics)                                                                                                                         | 
 | #  | 01 | [0x01 - Shell Permissions](./0x01-shell_permissions)                                                                                                         |
 | #  | 02 | [0x02 - Shell Redirections](./0x02-shell_redirections)                      	                                                                                | 
 | #  | 03 | [0x03 - Shell Variables & Expansions](./0x03-shell_variables_expansions)                                                                                     | 
