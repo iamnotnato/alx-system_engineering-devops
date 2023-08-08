@@ -42,7 +42,7 @@
 
 <br>
 
-> 🖥️ **Integrated Development Environment:**
+> 🖥️ **Projects Guide:**
 
 <br>
 
