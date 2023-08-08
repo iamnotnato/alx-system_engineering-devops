@@ -1,60 +1,55 @@
 #!/usr/bin/python3
-"""
-playing with reddit API
-"""
-
+"""Function to count words in all hot posts of a given Reddit subreddit."""
 import requests
 
 
-def hot_print(response, word_list, param, hot_dict):
+def count_words(subreddit, word_list, instances={}, after="", count=0):
+    """Prints counts of given words found in hot posts of a given subreddit.
+
+    Args:
+        subreddit (str): The subreddit to search.
+        word_list (list): The list of words to search for in post titles.
+        instances (obj): Key/value pairs of words/counts.
+        after (str): The parameter for the next page of the API results.
+        count (int): The parameter of results matched thus far.
     """
-    print number of times the hot word is repeated
-    and fill the hot_dict dictionary with that values
-    """
-    hots = response.json().get("data").get("children")
-    for hot in hots:
-        for hot_word in word_list:
-            title = hot.get("data").get("title")
-            if title is not None:
-                words = title.split()
-                for word in words:
-                    if hot_word.lower() == word.lower():
-                        hot_dict[hot_word] += 1
+    url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
+    headers = {
+        "User-Agent": "linux:0x16.api.advanced:v1.0.0"
+    }
+    params = {
+        "after": after,
+        "count": count,
+        "limit": 100
+    }
+    response = requests.get(url, headers=headers, params=params,
+                            allow_redirects=False)
+    try:
+        results = response.json()
+        if response.status_code == 404:
+            raise Exception
+    except Exception:
+        print("")
+        return
 
-    if param is None:
-        lista = sorted(hot_dict.items(), key=lambda x: x[1])
-        lista.reverse()
-        # print(lista)
-        for key, value in lista:
-            if value != 0:
-                print("{}: {}".format(key, value))
+    results = results.get("data")
+    after = results.get("after")
+    count += results.get("dist")
+    for c in results.get("children"):
+        title = c.get("data").get("title").lower().split()
+        for word in word_list:
+            if word.lower() in title:
+                times = len([t for t in title if t == word.lower()])
+                if instances.get(word) is None:
+                    instances[word] = times
+                else:
+                    instances[word] += times
 
-
-def count_words(subreddit, word_list, param1=None, hot_dict={}):
-    """
-    counts words from reddits API
-    """
-    url = "https://www.reddit.com"
-    resp = requests.get("{}/r/{}/hot.json".format(url, subreddit),
-                        headers={'User-Agent': 'Custom user'},
-                        params={'after': param1})
-
-    if len(hot_dict) == 0:
-        for elem in word_list:
-            hot_dict[elem] = 0
-
-    if resp:
-        next_r = resp.json().get("data").get("after")
-        if next_r:
-            count_words(subreddit, word_list,
-                        param1=next_r,
-                        hot_dict=hot_dict)
-
-            hot_print(resp, word_list, param1, hot_dict)
-            return hot_dict
-
-        else:
-            hot_print(resp, word_list, param1, hot_dict)
-            return hot_dict
+    if after is None:
+        if len(instances) == 0:
+            print("")
+            return
+        instances = sorted(instances.items(), key=lambda kv: (-kv[1], kv[0]))
+        [print("{}: {}".format(k, v)) for k, v in instances]
     else:
-        return None
+        count_words(subreddit, word_list, instances, after, count)
