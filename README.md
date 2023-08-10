@@ -4,7 +4,7 @@
 
 <div>
   <a href="https://github.com/iamnotnato/alx-system_engineering-devops">
-    <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/images/devops.png" alt="Logo" width="600" height="450">
+    <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/images/devops1.png" alt="Logo" width="600" height="450">
   </a>
 </div>
 
