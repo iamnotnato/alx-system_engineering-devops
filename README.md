@@ -11,7 +11,7 @@
 <br>
 
 <div>
- <a href="https://www.atlassian.com/devops/frameworks/team-structure">“Image by atlassian.com”</a>
+ <a href="https://www.atlassian.com/devops/frameworks/team-structure">Image by atlassian.com</a>
 </div>
 
 > 📝 **Summary:**
