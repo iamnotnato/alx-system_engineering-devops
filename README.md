@@ -85,5 +85,8 @@
 |            -          |         -             | [Attack is the best defense](./attack_is_the_best_defense)                                                                                                   | 
 |            -          |         -             | [Command line for the win](./command_line_for_the_win)                                                                                                       |
 
- 💡*Fun Fact : The projects have memory addresses assigned to identify them.*
-                *Symbolizing how, over time,by understanding the ALX curriculum, it is stored in parts of our mind just like memory is stored in computers.*
+ 💡*Fun Fact :*
+ 
+ > *The projects have memory addresses assigned to identify them.*
+ <br>
+ > *Symbolizing how, over time,by understanding the ALX curriculum, it is stored in parts of our mind just like memory is stored in computers.*
