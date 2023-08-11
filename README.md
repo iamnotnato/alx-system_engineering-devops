@@ -80,5 +80,5 @@
 |           0x00        |         00            | [0x17. Web stack debugging #3](./0x17-web_stack_debugging_3)                                                                                                 |
 |           0x00        |         00            | [0x18. Webstack monitoring](./0x18-webstack_monitoring)                                                                                                      |
 |           0x00        |         00            | [0x19. Postmortem](./0x19-postmortem)                                                                                                                        | 
-|           0x00        |         00            | [Attack is the best defense](./attack_is_the_best_defense)                                                                                                   | 
-|           0x00        |         00            | [Command line for the win](./command_line_for_the_win)                                                                                                       |
+|           -        |         -            | [Attack is the best defense](./attack_is_the_best_defense)                                                                                                   | 
+|           -        |         -            | [Command line for the win](./command_line_for_the_win)                                                                                                       |
