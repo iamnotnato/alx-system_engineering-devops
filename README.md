@@ -14,6 +14,8 @@
  <a href="https://www.atlassian.com/devops/frameworks/team-structure">Image by atlassian.com</a>
 </div>
 
+<br>
+
 > 📝 **Summary:**
 
 > These are projects that helped me understand bash scripting.
