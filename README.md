@@ -7,8 +7,12 @@
     <img src="https://github.com/iamnotnato/alx-system_engineering-devops/blob/master/images/devops1.png" alt="Logo" width="450" height="300">
   </a>
 </div>
-Image Credit = "https://www.atlassian.com/devops/frameworks/team-structure"
+
 <br>
+
+<div>
+ <a href="https://www.atlassian.com/devops/frameworks/team-structure">Image credit</a>
+</div>
 
 > 📝 **Summary:**
 
