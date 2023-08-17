@@ -46,22 +46,22 @@ defaults
         option http-server-close
 
 #--iamnato.tech-params-begin--
-backend iamnato.tech-backend
+backend www.iamnato.tech-backend
         redirect scheme https if !{ ssl_fc }
         balance roundrobin
         server 106387-web-01 18.208.119.7:80 check
         server 106387-web-02 52.91.202.103:80 check
-frontend iamnato.tech-http-frontend
+frontend www.iamnato.tech-http-frontend
         bind *:80
         http-request set-header X-Forwarded-Proto http
-        default_backend iamnato.tech-backend
+        default_backend www.iamnato.tech-backend
 
-frontend iamnato.tech-https-frontend
-        bind *:443 ssl crt /etc/haproxy/certs/iamnato.tech.pem
+frontend www.iamnato.tech-https-frontend
+        bind *:443 ssl crt /etc/haproxy/certs/www.iamnato.tech.pem
         http-request set-header X-Forwarded-Proto https
         acl letsencrypt-acl path_beg /.well-known/acme-challenge/
         use_backend letsencrypt-backend if letsencrypt-acl
-        default_backend iamnato.tech-backend
+        default_backend www.iamnato.tech-backend
 #--iamnato.tech-params-end--
 
 backend letsencrypt-backend
