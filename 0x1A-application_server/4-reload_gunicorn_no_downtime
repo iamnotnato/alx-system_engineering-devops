@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Script to restart gunicorn service gracefully
 kill -SIGHUP 25197
+graceful_timeout = 30
