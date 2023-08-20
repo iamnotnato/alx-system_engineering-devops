@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Define the Gunicorn process name
 GUNICORN_PROCESS="gunicorn"
 # Find the process IDs of Gunicorn
