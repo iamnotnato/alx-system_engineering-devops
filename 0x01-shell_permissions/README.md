@@ -74,7 +74,7 @@
    
 > 📁 **3. New owner**
 > 
-> 💾 **File :**: [3-new_owner](./3-new_owner)
+> 💾 **File :** [3-new_owner](./3-new_owner)
 > 
 > 📑 **Task :** A script that changes the owner of the file hello to the user betty.
 > 
@@ -182,7 +182,7 @@
  
 > 📁 **11. Directories**
 > 
-> 💾 **File :**: [11-directories_permissions](./11-directories_permissions)
+> 💾 **File :** [11-directories_permissions](./11-directories_permissions)
 > 
 > 📑 **Task :** A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 >
