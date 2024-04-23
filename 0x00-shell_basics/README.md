@@ -141,7 +141,7 @@
  
 > 📁 **10. Back to the future**
 > 
-> 💾 **File :**[10-back](./10-back)
+> 💾 **File :** [10-back](./10-back)
 > 
 > 📑 **Task :** A script that changes the working directory to the previous one.
 > 
@@ -215,7 +215,7 @@
 > 
 > 💾 **File :** [100-lets_move](./100-lets_move)
 > 
-> 📑 **Task :**: A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+> 📑 **Task :** A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 > 
 > 📝 **Required :** 
 
@@ -231,7 +231,7 @@
 > 
 > 💾 **File :** [101-clean_emacs](./101-clean_emacs)
 > 
-> 📑 **Task :**: A script that deletes all files in the current working directory that end with the character ~.
+> 📑 **Task :** A script that deletes all files in the current working directory that end with the character ~.
 > 
 <br>  
   
