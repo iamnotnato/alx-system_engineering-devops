@@ -43,18 +43,6 @@
 
 <br>
 
-> 🖥️ **Integrated Development Environment:**
-
-<table>
-  <tr>
-<td><img alt="medium" src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"></td>
-<td><img alt="medium" src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white"></td>
-<td><img alt="medium" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white"></td>
-  </tr>
-</table>
-
-<br>
-
 > 🖥️ **Developer's Toolkit:**
 
 <table>
