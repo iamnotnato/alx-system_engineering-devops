@@ -81,8 +81,12 @@
 >
 > 💾 **File :** [4-listmorefiles](./4-listmorefiles)
 >
-> 📑 **Task :** Display current directory contents, including hidden files (starting with .). Use the long format.
+> 📑 **Task :**
 >
+> Display current directory contents, including hidden files (starting with .) 
+>
+> Use the long format.
+> 
 <br>   
    
 > 📁 **5. I love numbers**
