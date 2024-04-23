@@ -289,3 +289,4 @@
 |-| -------------------------------------------------------------------- |
 |-| School data files always contain the string SCHOOL at offset 0.      |
   
+<br>
