@@ -103,34 +103,3 @@
 > *The projects have memory addresses assigned to identify them.*
 >
 > *Symbolizing how, over time,by understanding the ALX curriculum, it is stored in parts of our mind just like memory is stored in computers.*
-
-<br>
-
-### ALX System Engineering and DevOps
-
-#### Getting Started
-
-To get started with the ALX System Engineering and DevOps repository, you will need to:
-
-1. Clone the repository to your local computer.
-2. Open the repository in a text editor or IDE.
-3. Read the README.md file to learn more about the repository.
-4. Start exploring the repository's contents.
-
-#### Git Clone
-
-To clone the repository to your local computer, you will need to use the following command:
-
-```
-git clone https://github.com/iamnotnato/alx-system_engineering-devops.git
-```
-
-#### License Information
-
-The ALX System Engineering and DevOps repository is licensed under the MIT License. This means that you are free to use and modify the repository's contents for any purpose, including commercial purposes.
-
-### Contact
-
-For any questions or support, please contact the maintainer through [GitHub](https://github.com/iamnotnato).
-
-
